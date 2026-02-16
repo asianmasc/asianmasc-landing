@@ -11,7 +11,7 @@ export default function Footer() {
           </div>
 
           {/* Links */}
-          <div className="flex gap-8 text-gray-400 text-sm">
+          <div className="flex flex-wrap justify-center gap-6 text-gray-400 text-sm">
             <a
               href="https://discord.gg/asianmasc"
               target="_blank"
@@ -19,6 +19,18 @@ export default function Footer() {
               className="hover:text-white transition-colors"
             >
               Discord
+            </a>
+            <a
+              href="/privacy"
+              className="hover:text-white transition-colors"
+            >
+              Privacy Policy
+            </a>
+            <a
+              href="/terms"
+              className="hover:text-white transition-colors"
+            >
+              Terms of Service
             </a>
           </div>
 
