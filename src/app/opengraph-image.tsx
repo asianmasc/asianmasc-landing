@@ -7,15 +7,6 @@ export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
 export default async function Image() {
-  // Load Inter Bold font
-  const interBold = fetch(
-    new URL("https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuGKYAZ9hiA.woff2")
-  ).then((res) => res.arrayBuffer());
-
-  const interSemiBold = fetch(
-    new URL("https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuI6fAZ9hiA.woff2")
-  ).then((res) => res.arrayBuffer());
-
   return new ImageResponse(
     (
       <div
@@ -28,7 +19,6 @@ export default async function Image() {
           justifyContent: "center",
           background: "linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #0a0a0a 100%)",
           position: "relative",
-          fontFamily: "Inter",
         }}
       >
         {/* Accent gradient circles */}
@@ -165,22 +155,6 @@ export default async function Image() {
         </div>
       </div>
     ),
-    {
-      ...size,
-      fonts: [
-        {
-          name: "Inter",
-          data: await interBold,
-          style: "normal",
-          weight: 700,
-        },
-        {
-          name: "Inter",
-          data: await interSemiBold,
-          style: "normal",
-          weight: 600,
-        },
-      ],
-    }
+    { ...size }
   );
 }
