@@ -30,7 +30,7 @@ export default function Hero() {
         {/* Main headline */}
         <h1 id="hero-heading" className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
           A Community Built for{" "}
-          <span className="gradient-text">Your Growth</span>
+          <span className="gradient-text-shimmer">Your Growth</span>
         </h1>
 
         {/* Subheadline */}
