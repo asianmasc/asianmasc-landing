@@ -41,7 +41,7 @@ export default function FinalCTA() {
 
         {/* Trust indicators */}
         <p className="mt-6 text-gray-500 text-sm">
-          182,000+ members • Free to join • Instant access
+          Join the r/asianmasculinity community • Free • Instant access
         </p>
       </div>
     </section>

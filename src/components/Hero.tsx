@@ -1,5 +1,7 @@
 "use client";
 
+import SubredditStats from "./SubredditStats";
+
 const DISCORD_LINK = "https://discord.gg/asianmasc";
 
 export default function Hero() {
@@ -17,7 +19,9 @@ export default function Hero() {
         {/* Badge */}
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-dark-700/80 border border-dark-500 mb-8">
           <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
-          <span className="text-sm text-gray-300">182,000+ members strong</span>
+          <span className="text-sm text-gray-300">
+            <SubredditStats /> in the r/asianmasculinity community
+          </span>
         </div>
 
         {/* Main headline */}

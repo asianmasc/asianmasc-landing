@@ -1,8 +1,10 @@
+import SubredditStats from "./SubredditStats";
+
 const stats = [
   {
-    value: "182K+",
+    value: "subreddit",
     label: "Members",
-    description: "And growing every day",
+    description: "r/asianmasculinity community",
   },
   {
     value: "24/7",
@@ -32,7 +34,7 @@ export default function Stats() {
           {stats.map((stat, index) => (
             <div key={index} className="text-center">
               <div className="text-4xl md:text-5xl font-bold gradient-text mb-2">
-                {stat.value}
+                {stat.value === "subreddit" ? <SubredditStats /> : stat.value}
               </div>
               <div className="text-lg font-semibold text-white mb-1">
                 {stat.label}
