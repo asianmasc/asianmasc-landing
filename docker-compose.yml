@@ -1,0 +1,18 @@
+services:
+  web:
+    image: dddd4444/asianmasc-landing:latest
+    container_name: asianmasc-landing
+    restart: unless-stopped
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.asianmasc-landing.rule=Host(`asianmasc.com`) || Host(`www.asianmasc.com`)"
+      - "traefik.http.routers.asianmasc-landing.entrypoints=websecure"
+      - "traefik.http.routers.asianmasc-landing.tls.certresolver=letsencrypt"
+      - "traefik.http.services.asianmasc-landing.loadbalancer.server.port=80"
+      - "com.centurylinklabs.watchtower.enable=true"
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true
