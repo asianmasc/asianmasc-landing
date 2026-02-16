@@ -31,7 +31,7 @@ export default function FinalCTA() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Join the AsianMasc Discord server for free (opens in new tab)"
-          className="inline-flex items-center justify-center gap-3 px-10 py-5 bg-gradient-to-r from-accent-red to-accent-gold text-white text-xl font-bold rounded-xl transition-transform duration-300 hover:scale-105 shadow-lg shadow-accent-red/20 hover:shadow-xl hover:shadow-accent-gold/30"
+          className="inline-flex items-center justify-center gap-3 px-10 py-5 bg-gradient-to-r from-accent-red to-accent-gold text-white text-xl font-bold rounded-xl transition-transform duration-300 hover:scale-105 shadow-lg shadow-accent-red/25"
         >
           <svg
             className="w-7 h-7"
