@@ -14,23 +14,36 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       
-      - name: Fetch Reddit subscriber count
+      - name: Fetch member count from Discord
         id: reddit
+        env:
+          DISCORD_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
         run: |
-          # Fetch with retry and fallback
-          RESPONSE=$(curl -s --retry 3 -H "User-Agent: Mozilla/5.0 (compatible; asianmasc-landing/1.0)" \
-            "https://www.reddit.com/r/asianmasculinity/about.json" || echo "{}")
+          # Fetch channel name from Discord stats channel
+          CHANNEL_ID="1252975021375094836"
+          RESPONSE=$(curl -s -H "Authorization: Bot $DISCORD_TOKEN" \
+            "https://discord.com/api/v10/channels/$CHANNEL_ID" 2>/dev/null || echo "{}")
           
-          # Extract count, default to fallback if parse fails
-          COUNT=$(echo "$RESPONSE" | jq -r '.data.subscribers // empty' 2>/dev/null || echo "")
+          # Parse count from channel name (e.g. "AsianMasculinity: 192K Members")
+          CHANNEL_NAME=$(echo "$RESPONSE" | jq -r '.name // empty' 2>/dev/null || echo "")
           
-          # Validate it's a number > 100000, otherwise use fallback
-          if ! [[ "$COUNT" =~ ^[0-9]+$ ]] || [ "${COUNT:-0}" -lt 100000 ]; then
-            COUNT=182000
+          # Extract number and suffix (K or M)
+          if [[ "$CHANNEL_NAME" =~ ([0-9]+)([KMkm])?[[:space:]]*Members ]]; then
+            NUM="${BASH_REMATCH[1]}"
+            SUFFIX="${BASH_REMATCH[2]^^}"
+            if [ "$SUFFIX" = "K" ]; then
+              COUNT=$((NUM * 1000))
+            elif [ "$SUFFIX" = "M" ]; then
+              COUNT=$((NUM * 1000000))
+            else
+              COUNT="$NUM"
+            fi
+          else
+            COUNT=192000  # Fallback
           fi
           
           echo "count=$COUNT" >> $GITHUB_OUTPUT
-          echo "Subscriber count: $COUNT"
+          echo "Channel: $CHANNEL_NAME -> Count: $COUNT"
       
       - uses: docker/setup-buildx-action@v3
       - uses: docker/login-action@v3

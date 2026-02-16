@@ -1,6 +1,6 @@
 "use client";
 
-const FALLBACK = 182000;
+const FALLBACK = 192000;
 
 function formatNumber(num: number): string {
   if (num >= 1000000) {
