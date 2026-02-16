@@ -48,7 +48,12 @@ export default function RootLayout({
         <script
           defer
           data-domain="asianmasc.com"
-          src="https://analytics.wuxiamaxxing.com/js/script.js"
+          src="https://analytics.wuxiamaxxing.com/js/script.file-downloads.hash.outbound-links.pageview-props.tagged-events.js"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }`
+          }}
         />
       </head>
       <body className={`${inter.variable} antialiased`}>{children}</body>
