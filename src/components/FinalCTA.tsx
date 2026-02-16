@@ -41,7 +41,7 @@ export default function FinalCTA() {
 
         {/* Trust indicators */}
         <p className="mt-6 text-gray-500 text-sm">
-          Join the r/asianmasculinity community • Free • Instant access
+          Free to join • Instant access • Active 24/7
         </p>
       </div>
     </section>
