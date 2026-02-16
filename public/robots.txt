@@ -1,0 +1,5 @@
+# AsianMasc Landing Page
+User-agent: *
+Allow: /
+
+Sitemap: https://asianmasc.com/sitemap.xml

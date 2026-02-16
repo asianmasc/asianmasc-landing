@@ -12,6 +12,7 @@ const description = `Join ${MEMBER_COUNT_DISPLAY} Asian men leveling up together
 const shortDescription = `Join ${MEMBER_COUNT_DISPLAY} Asian men leveling up together. Fitness, dating, career, business, and culture.`;
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://asianmasc.com"),
   title: "AsianMasc, The Online Community for Asian Men",
   description,
   keywords: [
@@ -24,17 +25,41 @@ export const metadata: Metadata = {
     "business",
     "discord",
   ],
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     title: "AsianMasc, The Online Community for Asian Men",
     description: shortDescription,
     type: "website",
     url: "https://asianmasc.com",
+    siteName: "AsianMasc",
+    // Image auto-generated from opengraph-image.tsx
   },
   twitter: {
     card: "summary_large_image",
     title: "AsianMasc, The Online Community for Asian Men",
     description: shortDescription,
+    // Image auto-generated from twitter-image.tsx
   },
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
+
+// JSON-LD structured data
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "AsianMasc",
+  url: "https://asianmasc.com",
+  logo: "https://asianmasc.com/favicon.ico",
+  description: "The largest online community for Asian men focused on self-improvement, fitness, dating, career, and cultural identity.",
+  sameAs: [
+    "https://discord.gg/asianmasc",
+    "https://reddit.com/r/asianmasculinity",
+  ],
 };
 
 export default function RootLayout({
@@ -45,6 +70,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* JSON-LD Structured Data */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
         {/* Plausible Analytics (self-hosted) */}
         <script
           defer
