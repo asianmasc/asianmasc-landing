@@ -8,7 +8,7 @@ services:
       - "traefik.http.routers.asianmasc-landing.rule=Host(`asianmasc.com`) || Host(`www.asianmasc.com`)"
       - "traefik.http.routers.asianmasc-landing.entrypoints=websecure"
       - "traefik.http.routers.asianmasc-landing.tls.certresolver=letsencrypt"
-      - "traefik.http.services.asianmasc-landing.loadbalancer.server.port=80"
+      - "traefik.http.services.asianmasc-landing.loadbalancer.server.port=3000"
       - "com.centurylinklabs.watchtower.enable=true"
     networks:
       - proxy
