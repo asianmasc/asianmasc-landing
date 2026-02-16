@@ -1,7 +1,5 @@
 "use client";
 
-import { useEffect, useState } from "react";
-
 const FALLBACK = 182000;
 
 function formatNumber(num: number): string {
@@ -15,18 +13,7 @@ function formatNumber(num: number): string {
 }
 
 export default function SubredditStats() {
-  const [count, setCount] = useState(FALLBACK);
-
-  useEffect(() => {
-    fetch("/api/stats")
-      .then((res) => res.json())
-      .then((data) => {
-        if (data.count) setCount(data.count);
-      })
-      .catch(() => {
-        // Keep fallback
-      });
-  }, []);
-
+  // Use build-time env var, fallback to 182K
+  const count = parseInt(process.env.NEXT_PUBLIC_REDDIT_SUBSCRIBERS || "") || FALLBACK;
   return <span>{formatNumber(count)}+</span>;
 }
