@@ -8,31 +8,31 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "AsianMasc - Brotherhood for Asian Men",
+  title: "AsianMasc - Online Community for Asian Men",
   description:
-    "Join 182K+ Asian men building stronger lives together. Fitness, dating, career, business, and cultural connection. Your brotherhood awaits.",
+    "Join 182K+ Asian men leveling up together. Fitness, dating, career, business, and culture. Free to join.",
   keywords: [
     "asian men",
     "self improvement",
-    "brotherhood",
+    "community",
     "fitness",
     "dating",
     "career",
     "business",
-    "community",
+    "discord",
   ],
   openGraph: {
-    title: "AsianMasc - Brotherhood for Asian Men",
+    title: "AsianMasc - Online Community for Asian Men",
     description:
-      "Join 182K+ Asian men building stronger lives together. Fitness, dating, career, business, and cultural connection.",
+      "Join 182K+ Asian men leveling up together. Fitness, dating, career, business, and culture.",
     type: "website",
     url: "https://asianmasc.com",
   },
   twitter: {
     card: "summary_large_image",
-    title: "AsianMasc - Brotherhood for Asian Men",
+    title: "AsianMasc - Online Community for Asian Men",
     description:
-      "Join 182K+ Asian men building stronger lives together. Fitness, dating, career, business, and cultural connection.",
+      "Join 182K+ Asian men leveling up together. Fitness, dating, career, business, and culture.",
   },
 };
 

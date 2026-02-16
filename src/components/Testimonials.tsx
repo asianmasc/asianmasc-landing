@@ -1,7 +1,7 @@
 const testimonials = [
   {
     quote:
-      "Feeling blessed. The bros helped me with biz mentorship, accounting, strategy, and mental framework. I still remember all the help.",
+      "The community helped me with biz mentorship, accounting, strategy, and mental frameworks. Genuinely life-changing.",
     author: "Kevin T.",
     role: "Entrepreneur",
   },
@@ -19,7 +19,7 @@ const testimonials = [
   },
   {
     quote:
-      "Grateful I climbed a mountain over the weekends with some homies.",
+      "Climbed a mountain last weekend with people I met here. This community is different.",
     author: "David C.",
     role: "Community Member",
   },
@@ -39,10 +39,10 @@ export default function Testimonials() {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold mb-4">
             Real Stories from{" "}
-            <span className="gradient-text">Real Brothers</span>
+            <span className="gradient-text">Real Members</span>
           </h2>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-            Hear from members who&apos;ve transformed their lives through our community.
+            Hear from guys who leveled up through the community.
           </p>
         </div>
 

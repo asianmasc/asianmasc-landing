@@ -86,7 +86,7 @@ export default function Problem() {
               The Solution
             </div>
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              A brotherhood that{" "}
+              A community that{" "}
               <span className="gradient-text">elevates everyone</span>
             </h2>
             <ul className="space-y-4 text-gray-300">
@@ -136,7 +136,7 @@ export default function Problem() {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <span>Stay accountable with brothers who want to see you win</span>
+                <span>Stay accountable with people who want to see you win</span>
               </li>
               <li className="flex items-start gap-3">
                 <svg

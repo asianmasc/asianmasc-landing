@@ -2,7 +2,7 @@ const stats = [
   {
     value: "182K+",
     label: "Members",
-    description: "Brothers in the community",
+    description: "And growing every day",
   },
   {
     value: "24/7",
@@ -17,7 +17,7 @@ const stats = [
   {
     value: "Free",
     label: "To Join",
-    description: "No paywall, just brotherhood",
+    description: "No paywall. Ever.",
   },
 ];
 
