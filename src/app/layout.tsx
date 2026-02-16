@@ -8,7 +8,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "AsianMasc - Online Community for Asian Men",
+  title: "AsianMasc, The Online Community for Asian Men",
   description:
     "Join 182K+ Asian men leveling up together. Fitness, dating, career, business, and culture. Free to join.",
   keywords: [
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     "discord",
   ],
   openGraph: {
-    title: "AsianMasc - Online Community for Asian Men",
+    title: "AsianMasc, The Online Community for Asian Men",
     description:
       "Join 182K+ Asian men leveling up together. Fitness, dating, career, business, and culture.",
     type: "website",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AsianMasc - Online Community for Asian Men",
+    title: "AsianMasc, The Online Community for Asian Men",
     description:
       "Join 182K+ Asian men leveling up together. Fitness, dating, career, business, and culture.",
   },
