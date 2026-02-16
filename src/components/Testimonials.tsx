@@ -10,7 +10,7 @@ const testimonials = [
     quote:
       "No other place to build relationships with insane high level players that also share cultural roots. Some things are worth more than just monetary.",
     author: "ankimasta",
-    role: "Business Owner",
+    role: "Content Creator",
     featured: false,
   },
   {
@@ -31,7 +31,7 @@ const testimonials = [
     quote:
       "I've been so fortunate to have experienced incredible love from people who share my cultural roots. There's a part of me that feels like I have a legacy to build upon.",
     author: "CoilConductor",
-    role: "Finance Professional",
+    role: "Software Engineer",
     featured: false,
   },
 ];
