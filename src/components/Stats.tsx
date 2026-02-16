@@ -4,7 +4,7 @@ const stats = [
   {
     value: "subreddit",
     label: "Members",
-    description: "r/asianmasculinity community",
+    description: "r/asianmasculinity subreddit",
   },
   {
     value: "24/7",

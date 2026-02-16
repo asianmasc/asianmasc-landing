@@ -20,7 +20,7 @@ export default function Hero() {
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-dark-700/80 border border-dark-500 mb-8">
           <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
           <span className="text-sm text-gray-300">
-            <SubredditStats /> in the r/asianmasculinity community
+            <SubredditStats /> in the r/asianmasculinity subreddit
           </span>
         </div>
 
