@@ -1,8 +1,8 @@
 const testimonials = [
   {
     quote:
-      "The community helped me with biz mentorship, accounting, strategy, and mental frameworks. Genuinely life-changing.",
-    author: "Minh T.",
+      "Feeling blessed. Shout out to the bros that been helping me with biz this past 2 weeks: biz mentorship, accounting, strategy, and mental frameworks.",
+    author: "Poopyguy125",
     role: "Entrepreneur",
     featured: true,
   },
