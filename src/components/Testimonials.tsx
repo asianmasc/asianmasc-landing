@@ -15,15 +15,15 @@ const testimonials = [
   },
   {
     quote:
-      "I'm close to my friends. I know they'll be there for me, as I am for them. I am fit and healthy! I am able to do a job that I'm really passionate about.",
-    author: "jyv00",
-    role: "Software Engineer",
+      "Grateful for advice and help from all the guys over the past year.",
+    author: "stryker",
+    role: "College Student",
     featured: false,
   },
   {
     quote:
-      "Climbed a mountain last weekend with people I met here. This community is different.",
-    author: "AJRA",
+      "My situation hasn't changed much but I'm not depressed anymore. Now it's good time for progress.",
+    author: "CinnabarFrosch",
     role: "Community Member",
     featured: false,
   },
