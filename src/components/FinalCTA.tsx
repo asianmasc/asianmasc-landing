@@ -27,7 +27,7 @@ export default function FinalCTA() {
           href={DISCORD_LINK}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center justify-center gap-3 px-10 py-5 bg-gradient-to-r from-accent-red to-accent-gold hover:from-accent-gold hover:to-accent-red text-white text-xl font-bold rounded-xl transition-all duration-500 hover:scale-105 hover:shadow-xl hover:shadow-accent-gold/25 glow"
+          className="inline-flex items-center justify-center gap-3 px-10 py-5 bg-gradient-to-r from-accent-red to-accent-gold text-white text-xl font-bold rounded-xl transition-transform duration-300 hover:scale-105 shadow-lg shadow-accent-red/20 hover:shadow-xl hover:shadow-accent-gold/30"
         >
           <svg
             className="w-7 h-7"
