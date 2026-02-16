@@ -1,16 +1,19 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { MEMBER_COUNT_DISPLAY } from "@/lib/constants";
 
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
 });
 
+const description = `Join ${MEMBER_COUNT_DISPLAY} Asian men leveling up together. Fitness, dating, career, business, and culture. Free to join.`;
+const shortDescription = `Join ${MEMBER_COUNT_DISPLAY} Asian men leveling up together. Fitness, dating, career, business, and culture.`;
+
 export const metadata: Metadata = {
   title: "AsianMasc, The Online Community for Asian Men",
-  description:
-    "Join 182K+ Asian men leveling up together. Fitness, dating, career, business, and culture. Free to join.",
+  description,
   keywords: [
     "asian men",
     "self improvement",
@@ -23,16 +26,14 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "AsianMasc, The Online Community for Asian Men",
-    description:
-      "Join 182K+ Asian men leveling up together. Fitness, dating, career, business, and culture.",
+    description: shortDescription,
     type: "website",
     url: "https://asianmasc.com",
   },
   twitter: {
     card: "summary_large_image",
     title: "AsianMasc, The Online Community for Asian Men",
-    description:
-      "Join 182K+ Asian men leveling up together. Fitness, dating, career, business, and culture.",
+    description: shortDescription,
   },
 };
 

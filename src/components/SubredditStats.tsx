@@ -1,19 +1,7 @@
 "use client";
 
-const FALLBACK = 192000;
-
-function formatNumber(num: number): string {
-  if (num >= 1000000) {
-    return (num / 1000000).toFixed(1).replace(/\.0$/, "") + "M";
-  }
-  if (num >= 1000) {
-    return Math.floor(num / 1000) + "K";
-  }
-  return num.toString();
-}
+import { MEMBER_COUNT_DISPLAY } from "@/lib/constants";
 
 export default function SubredditStats() {
-  // Use build-time env var, fallback to 182K
-  const count = parseInt(process.env.NEXT_PUBLIC_REDDIT_SUBSCRIBERS || "") || FALLBACK;
-  return <span>{formatNumber(count)}+</span>;
+  return <span>{MEMBER_COUNT_DISPLAY}</span>;
 }
