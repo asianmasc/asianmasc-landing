@@ -18,7 +18,7 @@ export default function FinalCTA() {
         {/* Main content */}
         <h2 id="cta-heading" className="text-4xl md:text-6xl font-bold mb-6">
           Ready to{" "}
-          <span className="gradient-text">Level Up?</span>
+          <span className="gradient-text-shimmer">Level Up?</span>
         </h2>
         
         <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
