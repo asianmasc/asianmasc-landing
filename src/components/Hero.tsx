@@ -22,8 +22,8 @@ export default function Hero() {
 
         {/* Main headline */}
         <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-          Stop Going It{" "}
-          <span className="gradient-text">Alone</span>
+          A Community Built for{" "}
+          <span className="gradient-text">Your Growth</span>
         </h1>
 
         {/* Subheadline */}
