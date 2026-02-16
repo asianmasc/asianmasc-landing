@@ -17,9 +17,18 @@ jobs:
       - name: Fetch Reddit subscriber count
         id: reddit
         run: |
-          COUNT=$(curl -s -H "User-Agent: asianmasc-landing/1.0" \
-            "https://www.reddit.com/r/asianmasculinity/about.json" \
-            | jq -r '.data.subscribers // 182000')
+          # Fetch with retry and fallback
+          RESPONSE=$(curl -s --retry 3 -H "User-Agent: Mozilla/5.0 (compatible; asianmasc-landing/1.0)" \
+            "https://www.reddit.com/r/asianmasculinity/about.json" || echo "{}")
+          
+          # Extract count, default to fallback if parse fails
+          COUNT=$(echo "$RESPONSE" | jq -r '.data.subscribers // empty' 2>/dev/null || echo "")
+          
+          # Validate it's a number > 100000, otherwise use fallback
+          if ! [[ "$COUNT" =~ ^[0-9]+$ ]] || [ "${COUNT:-0}" -lt 100000 ]; then
+            COUNT=182000
+          fi
+          
           echo "count=$COUNT" >> $GITHUB_OUTPUT
           echo "Subscriber count: $COUNT"
       
