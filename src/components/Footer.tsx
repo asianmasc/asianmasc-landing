@@ -32,6 +32,12 @@ export default function Footer() {
             >
               Terms of Service
             </a>
+            <a
+              href="/cookies"
+              className="hover:text-white transition-colors"
+            >
+              Cookie Policy
+            </a>
           </div>
 
           {/* Copyright */}

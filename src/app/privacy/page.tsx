@@ -24,9 +24,12 @@ export default function Privacy() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">Cookies and Tracking</h2>
+            <h2 className="text-2xl font-semibold mb-4">Cookies and Analytics</h2>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              We use Plausible Analytics, a privacy-friendly service that does not use cookies or collect personal data. It only gathers aggregated, anonymous statistics about page views and traffic sources.
+            </p>
             <p className="text-gray-300 leading-relaxed">
-              This website does not use cookies or tracking technologies. We do not use analytics services that collect personal data.
+              For more details, see our <a href="/cookies" className="text-accent-gold hover:text-accent-red">Cookie Policy</a>.
             </p>
           </section>
 

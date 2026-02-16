@@ -43,6 +43,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/* Plausible Analytics */}
+        <script
+          defer
+          data-domain="asianmasc.com"
+          src="https://plausible.io/js/script.js"
+        />
+      </head>
       <body className={`${inter.variable} antialiased`}>{children}</body>
     </html>
   );
