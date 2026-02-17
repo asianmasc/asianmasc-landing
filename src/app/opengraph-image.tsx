@@ -6,7 +6,24 @@ export const alt = "AsianMasc - The Online Community for Asian Men";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
+async function loadFont() {
+  try {
+    // Try to fetch Inter Bold from jsDelivr (npm package with OTF files)
+    const response = await fetch(
+      "https://cdn.jsdelivr.net/npm/@fontsource/inter@5.0.16/files/inter-latin-700-normal.woff"
+    );
+    if (response.ok) {
+      return await response.arrayBuffer();
+    }
+  } catch {
+    // Fall back to no custom font
+  }
+  return null;
+}
+
 export default async function Image() {
+  const fontData = await loadFont();
+
   return new ImageResponse(
     (
       <div
@@ -19,6 +36,7 @@ export default async function Image() {
           justifyContent: "center",
           background: "linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #0a0a0a 100%)",
           position: "relative",
+          fontFamily: fontData ? "Inter" : "system-ui",
         }}
       >
         {/* Accent gradient circles */}
@@ -58,7 +76,7 @@ export default async function Image() {
           {/* Logo text - BOLD */}
           <div
             style={{
-              fontSize: 80,
+              fontSize: 88,
               fontWeight: 700,
               background: "linear-gradient(90deg, #dc2626 0%, #eab308 100%)",
               backgroundClip: "text",
@@ -75,7 +93,7 @@ export default async function Image() {
             style={{
               fontSize: 36,
               color: "#ffffff",
-              fontWeight: 600,
+              fontWeight: 400,
               marginBottom: 16,
               textAlign: "center",
             }}
@@ -100,7 +118,7 @@ export default async function Image() {
             >
               <div
                 style={{
-                  fontSize: 48,
+                  fontSize: 52,
                   fontWeight: 700,
                   background: "linear-gradient(90deg, #dc2626 0%, #eab308 100%)",
                   backgroundClip: "text",
@@ -120,7 +138,7 @@ export default async function Image() {
             >
               <div
                 style={{
-                  fontSize: 48,
+                  fontSize: 52,
                   fontWeight: 700,
                   background: "linear-gradient(90deg, #dc2626 0%, #eab308 100%)",
                   backgroundClip: "text",
@@ -140,7 +158,7 @@ export default async function Image() {
             >
               <div
                 style={{
-                  fontSize: 48,
+                  fontSize: 52,
                   fontWeight: 700,
                   background: "linear-gradient(90deg, #dc2626 0%, #eab308 100%)",
                   backgroundClip: "text",
@@ -155,6 +173,18 @@ export default async function Image() {
         </div>
       </div>
     ),
-    { ...size }
+    {
+      ...size,
+      fonts: fontData
+        ? [
+            {
+              name: "Inter",
+              data: fontData,
+              style: "normal",
+              weight: 700,
+            },
+          ]
+        : undefined,
+    }
   );
 }
