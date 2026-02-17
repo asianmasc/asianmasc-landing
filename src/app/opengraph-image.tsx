@@ -8,9 +8,9 @@ export const contentType = "image/png";
 
 async function loadFont() {
   try {
-    // Try to fetch Inter Bold from jsDelivr (npm package with OTF files)
+    // Fetch Inter Black (900 weight) - the thickest weight
     const response = await fetch(
-      "https://cdn.jsdelivr.net/npm/@fontsource/inter@5.0.16/files/inter-latin-700-normal.woff"
+      "https://cdn.jsdelivr.net/npm/@fontsource/inter@5.0.16/files/inter-latin-900-normal.woff"
     );
     if (response.ok) {
       return await response.arrayBuffer();
@@ -73,15 +73,15 @@ export default async function Image() {
             zIndex: 10,
           }}
         >
-          {/* Logo text - BOLD */}
+          {/* Logo text - BLACK weight (thickest) */}
           <div
             style={{
-              fontSize: 88,
-              fontWeight: 700,
+              fontSize: 92,
+              fontWeight: 900,
               background: "linear-gradient(90deg, #dc2626 0%, #eab308 100%)",
               backgroundClip: "text",
               color: "transparent",
-              marginBottom: 24,
+              marginBottom: 20,
               letterSpacing: "-0.02em",
             }}
           >
@@ -91,7 +91,7 @@ export default async function Image() {
           {/* Tagline */}
           <div
             style={{
-              fontSize: 36,
+              fontSize: 34,
               color: "#ffffff",
               fontWeight: 400,
               marginBottom: 16,
@@ -105,8 +105,8 @@ export default async function Image() {
           <div
             style={{
               display: "flex",
-              gap: 48,
-              marginTop: 32,
+              gap: 56,
+              marginTop: 36,
             }}
           >
             <div
@@ -118,8 +118,8 @@ export default async function Image() {
             >
               <div
                 style={{
-                  fontSize: 52,
-                  fontWeight: 700,
+                  fontSize: 56,
+                  fontWeight: 900,
                   background: "linear-gradient(90deg, #dc2626 0%, #eab308 100%)",
                   backgroundClip: "text",
                   color: "transparent",
@@ -138,8 +138,8 @@ export default async function Image() {
             >
               <div
                 style={{
-                  fontSize: 52,
-                  fontWeight: 700,
+                  fontSize: 56,
+                  fontWeight: 900,
                   background: "linear-gradient(90deg, #dc2626 0%, #eab308 100%)",
                   backgroundClip: "text",
                   color: "transparent",
@@ -158,8 +158,8 @@ export default async function Image() {
             >
               <div
                 style={{
-                  fontSize: 52,
-                  fontWeight: 700,
+                  fontSize: 56,
+                  fontWeight: 900,
                   background: "linear-gradient(90deg, #dc2626 0%, #eab308 100%)",
                   backgroundClip: "text",
                   color: "transparent",
@@ -181,7 +181,7 @@ export default async function Image() {
               name: "Inter",
               data: fontData,
               style: "normal",
-              weight: 700,
+              weight: 900,
             },
           ]
         : undefined,
