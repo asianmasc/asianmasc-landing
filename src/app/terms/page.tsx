@@ -1,3 +1,17 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Terms of Service | AsianMasc",
+  description: "Terms of service for AsianMasc community and website.",
+  alternates: {
+    canonical: "/terms",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
+
 export default function Terms() {
   return (
     <main className="min-h-screen bg-dark-900 py-24">

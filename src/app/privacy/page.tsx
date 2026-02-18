@@ -1,3 +1,17 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy | AsianMasc",
+  description: "Privacy policy for AsianMasc community and website.",
+  alternates: {
+    canonical: "/privacy",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
+
 export default function Privacy() {
   return (
     <main className="min-h-screen bg-dark-900 py-24">

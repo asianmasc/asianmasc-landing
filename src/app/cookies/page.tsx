@@ -1,3 +1,17 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Cookie Policy | AsianMasc",
+  description: "Cookie policy for AsianMasc website.",
+  alternates: {
+    canonical: "/cookies",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
+
 export default function Cookies() {
   return (
     <main className="min-h-screen bg-dark-900 py-24">
