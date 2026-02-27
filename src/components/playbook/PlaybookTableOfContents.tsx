@@ -1,6 +1,17 @@
+"use client";
+
 import { PLAYBOOK_CHAPTERS } from "@/data/playbook-content";
 
 export default function PlaybookTableOfContents() {
+  function scrollToChapter(e: React.MouseEvent<HTMLAnchorElement>, id: string) {
+    e.preventDefault();
+    const el = document.getElementById(id);
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth", block: "start" });
+      history.replaceState(null, "", `#${id}`);
+    }
+  }
+
   return (
     <section
       id="table-of-contents"
@@ -21,6 +32,7 @@ export default function PlaybookTableOfContents() {
                 <li key={chapter.id}>
                   <a
                     href={`#${chapter.id}`}
+                    onClick={(e) => scrollToChapter(e, chapter.id)}
                     className="flex items-baseline gap-4 text-gray-300 hover:text-white transition-colors duration-200 group"
                   >
                     <span className="text-accent-gold font-medium shrink-0 w-10 text-right">
