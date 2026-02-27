@@ -57,7 +57,7 @@ export default function PlaybookFinalCTA() {
         </a>
 
         <p
-          className="mt-6 text-gray-500 text-sm"
+          className="mt-6 text-gray-400 text-sm"
           aria-label="Benefits: Free to join, Instant access, Active 24/7"
         >
           Free to join &bull; Instant access &bull; Active 24/7

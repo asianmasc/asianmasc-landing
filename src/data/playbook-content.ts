@@ -3,10 +3,17 @@ export interface PlaybookQuote {
   attribution?: string;
 }
 
+export interface PlaybookImage {
+  src: string;
+  alt: string;
+  caption?: string;
+}
+
 export interface ChapterSection {
   heading?: string;
   paragraphs: string[];
   quotes: PlaybookQuote[];
+  images?: PlaybookImage[];
 }
 
 export interface PlaybookChapter {
@@ -35,6 +42,17 @@ export const PLAYBOOK_CHAPTERS: PlaybookChapter[] = [
       },
       {
         paragraphs: [
+          "And here's the thing most guys won't accept: when you're truly maxed out, race doesn't matter. It becomes an even playing field. That's not cope -- it's the reality at the top of the looks ladder.",
+        ],
+        quotes: [
+          {
+            text: "race does not matter when u are maxed the fuck out. I truly believe it's an even playing field when you reach the looks threshold or beyond it.",
+            attribution: "BenjaminFCC",
+          },
+        ],
+      },
+      {
+        paragraphs: [
           "Here's what that means for you: before worrying about what to say or how to run game, your primary investment should be the gym, style, grooming, and physique. These are the returns that compound.",
         ],
         quotes: [
@@ -56,6 +74,102 @@ export const PLAYBOOK_CHAPTERS: PlaybookChapter[] = [
           {
             text: "open access to the types of girls you want to date starts there.",
             attribution: "BenjaminFCC",
+          },
+        ],
+      },
+      {
+        heading: "The Looks Transformation: Body, Hair, Clothes",
+        paragraphs: [
+          "Getting to the looks threshold isn't vague. It's three concrete pillars: low body fat to reveal your facial structure, the right hairstyle for your face, and fitted clothes that signal status. Each one compounds on the others.",
+        ],
+        quotes: [
+          {
+            text: "low body fat will make you hate yourself less. When you're lower body fat, you look good -- when you look good, you feel good -- when you look and feel good, you make others feel good -- when others feel good they want to be around you -- when others want to be around you, you love yourself. It's the calculus self love equation.",
+            attribution: "BenjaminFCC",
+          },
+        ],
+      },
+      {
+        paragraphs: [
+          "You need to bring out whatever jawline and facial features are hidden under the fat. Many guys are shocked how different they look lean. You don't know if your face has good bone structure if you've never been lean.",
+        ],
+        quotes: [
+          {
+            text: "if all of us were still fat would you say we already had good bone structure? Nah fam you'd say 'it's over,' but the fact that you see how great everything turned out for these people, your brain has to reason and justify it and say they already had good bone structure so you don't have to start. Stop lying to yourself, king. GET OUT OF YOUR OWN WAY.",
+            attribution: "BenjaminFCC",
+          },
+        ],
+        images: [
+          {
+            src: "/playbook/face-transformation-1.webp",
+            alt: "Before and after face transformation showing the impact of fat loss on facial features",
+            caption: "Fat to lean -- the jawline was always there.",
+          },
+          {
+            src: "/playbook/face-transformation-2.webp",
+            alt: "One year face transformation progress",
+            caption: "One year of consistency. That's it.",
+          },
+          {
+            src: "/playbook/benjamin-before-after.webp",
+            alt: "BenjaminFCC before and after transformation",
+            caption: "BenjaminFCC -- before vs. after.",
+          },
+        ],
+      },
+      {
+        paragraphs: [
+          "Hair is the second pillar. The right haircut for your face changes everything -- night and day. Most Asian guys default to low-effort side tapers. Grow it out, add texture, experiment. Long styled hair on Asian men is overpowering in sex appeal.",
+        ],
+        quotes: [
+          {
+            text: "a majority of Asians look better with styled hair that's much longer or medium length than short hair. Short hair limits what you can really do. Long hair is more maintenance, but the trade off is it will look much better with more variations to accentuate your facial features. You need to add texture -- iron curler or get it permed. Then use hair products and style it for volume.",
+            attribution: "BenjaminFCC",
+          },
+        ],
+        images: [
+          {
+            src: "/playbook/hair-textured.webp",
+            alt: "Asian male with textured medium-length hair",
+            caption: "Textured, medium-length -- frames the face.",
+          },
+          {
+            src: "/playbook/hair-long-styled.webp",
+            alt: "Asian male with long styled hair",
+            caption: "Long styled hair on Asian men is overpowering in sex appeal.",
+          },
+          {
+            src: "/playbook/hair-model.webp",
+            alt: "Asian male model with styled hair in dark setting",
+            caption: "Hair + lean face + style = the full package.",
+          },
+        ],
+      },
+      {
+        paragraphs: [
+          "Third pillar: clothes. Fitted, in-style clothes create perceived status instantly. A guy in fitted, trendy clothes with low body fat and styled hair -- his perceived status is higher than most people in any room.",
+        ],
+        quotes: [
+          {
+            text: "fitted clothes does three things: creates higher perceived status and makes you look like someone important, accentuates your physique and leanness creating more sex appeal, and compliments your lean face and good stylish hair -- it completes the package.\n\nyou can make cheap clothes look expensive if they fit your body to a T. Wear jewelry -- necklaces, rings, earrings. Women see it, we don't because we aren't surrounded by that all our lives. But as you wear more jewelry you'll see they make a huge difference, almost as if they add status to you.",
+            attribution: "BenjaminFCC",
+          },
+        ],
+        images: [
+          {
+            src: "/playbook/fitted-suit.webp",
+            alt: "Asian male in well-fitted dark suit",
+            caption: "Fitted clothes elevate perceived status instantly.",
+          },
+          {
+            src: "/playbook/fitted-casual.webp",
+            alt: "Asian male in fitted casual outfit",
+            caption: "Casual fits work too -- as long as it fits your body.",
+          },
+          {
+            src: "/playbook/accessories-full.webp",
+            alt: "Asian male with layered necklaces, earrings, and styled hair",
+            caption: "Hair + accessories + fitted clothes -- the complete package.",
           },
         ],
       },
@@ -93,6 +207,30 @@ export const PLAYBOOK_CHAPTERS: PlaybookChapter[] = [
         ],
       },
       {
+        heading: "Give Yourself Permission",
+        paragraphs: [
+          "Before any technique, before any approach -- you need to give yourself permission. Permission to go after what you want. You are your own worst enemy and that's what's holding you back.",
+        ],
+        quotes: [
+          {
+            text: "that first thing is giving yourself permission. You are your worst enemy and it's what's holding you back. Permission from yourself is needed to succeed in anything in life. Permission to look like an idiot. Permission to suck for awhile until you get good. Permission to dress sexier than that good looking dude over there. Permission to be an absolute beast.\n\n'Excuse me who gave you the audacity to do that?'\n\nYour response is 'I fucking did, now back the fck up and let me cook.'",
+            attribution: "BenjaminFCC",
+          },
+        ],
+      },
+      {
+        heading: "Screen, Don't Impress",
+        paragraphs: [
+          "Most guys go into interactions trying to impress women. Flip it. You're screening them out, not auditioning for them. Do what you want, say what you want. Full honesty -- even if you lose them.",
+        ],
+        quotes: [
+          {
+            text: "game is just pulling the trigger and making shit happen faster til you get her on your bed, naked and enjoying yourself with her. With that being said I am never smooth with girls I am talking to. I will look smooth if it's a girl that's down and into me. It will look like it's out of a movie scene.\n\non the other hand I can look like a complete noob and an idiot when someone isn't feeling me whether it's a girl or in business -- you will look stupid, a creep, a dumbass. But if it's the right person the dance will look flawless. Communication is a two way street.\n\nwe are screening out for the right person. We are looking to be in the right place at the right time.",
+            attribution: "BenjaminFCC",
+          },
+        ],
+      },
+      {
         paragraphs: [
           "This is key: mastery of dating is ultimately about freedom. The goal isn't to become obsessed with it -- it's to resolve it so it stops being a source of anxiety and starts being a source of joy.",
         ],
@@ -105,6 +243,17 @@ export const PLAYBOOK_CHAPTERS: PlaybookChapter[] = [
     number: "III",
     title: "Cold Approach",
     sections: [
+      {
+        paragraphs: [
+          "If you master social and approach anxiety, you can approach anywhere 90-95% of the time with any girl you want. You're creating something out of thin air -- think about how powerful that is. It gives you a sense of control over your dating life that most men never experience.",
+        ],
+        quotes: [
+          {
+            text: "I see it as three super powers you acquire doing this:\n\n1.) The super power of being the most attractive looking male -- race does not matter when u are maxed the fuck out. It's an even playing field when you reach the looks threshold.\n\n2.) The super power of making attraction out of thin air. In business I door knock a lot and it was how my company grew extremely quick -- creating opportunities out of thin air.\n\n3.) The super power to talk to any beautiful woman in any scenario you want and gear it towards romantic and sexual direction. Also transfers into business because you'll make those calls, walk in those businesses and shake hands with important high ranking people, ask for that high ticket price.",
+            attribution: "BenjaminFCC",
+          },
+        ],
+      },
       {
         paragraphs: [
           "Cold approach is nerve-wracking for most guys. Here it's stripped down to exactly what you need -- and nothing more. The goal of your approach is not to impress her; it's to quickly screen for interest and move things forward.",
@@ -147,6 +296,29 @@ export const PLAYBOOK_CHAPTERS: PlaybookChapter[] = [
           "Understand this: rejection often isn't about you -- it's about timing. The girl who said no today might say yes in 3 weeks. Don't internalize it. Volume and persistence matter. The right timing finds the right buyers.",
         ],
         quotes: [],
+      },
+      {
+        heading: "The Numbers Game: Three Avenues",
+        paragraphs: [
+          "You're playing a numbers game. If you want to never slow down in leads, max out all avenues. Even if there's a slowdown, you never really feel the low because you can create your own luck.",
+        ],
+        quotes: [
+          {
+            text: "to break it down -- dating, getting laid, approaching -- you're playing a numbers game. If you want to never slow down in leads, max out all avenues:\n\n1.) Daytime approaches\n2.) Nighttime approaches\n3.) Online\n\neven if there is a slowdown, you never really feel the low of it because you can create your own luck.",
+            attribution: "BenjaminFCC",
+          },
+        ],
+      },
+      {
+        paragraphs: [
+          "And if the results aren't showing yet -- relax. This is a long game. Have fun with it. Consistency is the variable that separates the guys who get results from the guys who quit.",
+        ],
+        quotes: [
+          {
+            text: "relax you're gunna get some. Maybe you're approaching a shit ton but not getting much action. Relax, eventually you're going to get laid and a lot of it. Options will pour in, but you need to be consistent. Have fun with it. This is fun.\n\nin sales the 30 days of insane revenue is the result of the efforts you put in 90 days prior.",
+            attribution: "BenjaminFCC",
+          },
+        ],
       },
     ],
   },
@@ -418,6 +590,48 @@ export const PLAYBOOK_CHAPTERS: PlaybookChapter[] = [
         ],
       },
       {
+        heading: "The Compound Effect",
+        paragraphs: [
+          "Everything in this playbook compounds. Your looks compound. Your confidence compounds. Your experience compounds. Progress isn't linear -- it's messy. Three steps forward, six steps back, two steps forward. But it all adds up.",
+        ],
+        quotes: [
+          {
+            text: "the more you do something, the higher your IQ for that thing gets. My fashion IQ might be low now, but as I do more my fashion IQ will increase. Babies' IQ on how to walk might be low now, but in a year that baby can walk and in a few years, it's normal.\n\nyou only get better. It's a rule that the more you do something, even if the marginal gains are 1% better, in the end it all adds up. Do not underestimate the power of the compounding effects.",
+            attribution: "BenjaminFCC",
+          },
+        ],
+        images: [
+          {
+            src: "/playbook/body-progression.webp",
+            alt: "Multi-year body transformation from 2017 to 2023",
+            caption: "2017 to 2023. Years of compounding. This is what consistency looks like.",
+          },
+          {
+            src: "/playbook/benjamin-styled.webp",
+            alt: "BenjaminFCC with styled hair, jewelry, and lean physique",
+            caption: "The end result: looks, hair, accessories, confidence -- all stacked.",
+          },
+        ],
+      },
+      {
+        heading: "Choose Your Trade-Offs",
+        paragraphs: [
+          "Life is a complete trade-off. The sooner you understand that, the sooner your eyes open. You're either trading comfort for mediocrity or discomfort for growth. Both hurt -- you just get to pick which pain.",
+        ],
+        quotes: [
+          {
+            text: "this is what you are trading:\n\nbeing fat, unappealing, and cope because it's easier to do these actions and the pain that comes with it.\n\nbeing physically fit and appealing because it's easier to do these actions and the pain that comes with it.\n\nchoose your pain, choose your trade off, choose your actions.",
+            attribution: "BenjaminFCC",
+          },
+        ],
+      },
+      {
+        paragraphs: [
+          "How to not care what other people think: working on yourself and your life is more important than what they say or judge about you. That's the hack. It's that simple.",
+        ],
+        quotes: [],
+      },
+      {
         paragraphs: [
           "You don't need a system. You need to be attractive, be present, and be calm. Everything in this playbook exists to get you to that natural state -- not to replace it.",
         ],
@@ -459,6 +673,16 @@ export const KEY_PRINCIPLES: KeyPrinciple[] = [
       "Know where you're going before you get there. Indecision is an attraction killer.",
   },
   {
+    title: "Give yourself permission.",
+    description:
+      "You are your own worst enemy. Permission to look like an idiot. Permission to suck until you get good. Permission to be an absolute beast.",
+  },
+  {
+    title: "Screen, don't impress.",
+    description:
+      "You're not auditioning for her -- you're screening for the right one. Full honesty, even if you lose them.",
+  },
+  {
     title: "Get it out of your system.",
     description:
       "Master this area of life so it stops consuming you. Then you can choose to be in -- or out -- on your own terms.",
@@ -469,8 +693,18 @@ export const KEY_PRINCIPLES: KeyPrinciple[] = [
       "Rejection is often about availability, not your worth. Volume and persistence compound.",
   },
   {
+    title: "Max all three avenues.",
+    description:
+      "Day approaches, night approaches, online. Max them all so you never feel the low. Create your own luck.",
+  },
+  {
     title: "Patience is part of the game.",
     description:
       "Don't text first. Don't rush. The calm, unhurried man wins.",
+  },
+  {
+    title: "Everything compounds.",
+    description:
+      "1% better each time adds up. Your looks, confidence, and experience all stack. Do not underestimate compounding.",
   },
 ];

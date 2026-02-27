@@ -97,7 +97,7 @@ export default function PlaybookPage() {
         <PlaybookFinalCTA />
 
         <footer className="bg-dark-900 py-8 text-center">
-          <p className="text-gray-500 text-sm">
+          <p className="text-gray-400 text-sm">
             AsianMasc &bull; BenjaminFCC &bull; #dating channel
           </p>
         </footer>

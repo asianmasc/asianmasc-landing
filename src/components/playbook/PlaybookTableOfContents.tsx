@@ -42,7 +42,7 @@ export default function PlaybookTableOfContents() {
                   <a
                     href={`#${chapter.id}`}
                     onClick={(e) => scrollToChapter(e, chapter.id)}
-                    className="flex items-baseline gap-4 text-gray-300 hover:text-white transition-colors duration-200 group"
+                    className="flex items-baseline gap-4 text-gray-300 hover:text-white transition-colors duration-200 group py-2"
                   >
                     <span className="text-accent-gold font-medium shrink-0 w-10 text-right">
                       {chapter.number}.

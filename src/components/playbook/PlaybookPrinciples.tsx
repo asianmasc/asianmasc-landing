@@ -30,7 +30,7 @@ export default function PlaybookPrinciples() {
           </div>
         </div>
 
-        <p className="text-center text-gray-500 text-sm mt-10 max-w-xl mx-auto leading-relaxed">
+        <p className="text-center text-gray-400 text-sm mt-10 max-w-xl mx-auto leading-relaxed">
           Compiled from BenjaminFCC&apos;s posts in the #dating channel of the
           AsianMasc Discord. All quotes preserve his authentic voice.
         </p>
