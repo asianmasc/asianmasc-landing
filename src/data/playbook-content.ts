@@ -24,7 +24,7 @@ export const PLAYBOOK_CHAPTERS: PlaybookChapter[] = [
     sections: [
       {
         paragraphs: [
-          "Let me start with one non-negotiable: your looks are your most powerful dating asset. Not pickup lines, not confidence scripts, not game theory -- looks. This isn't fatalism; it's a prioritization framework. Max out your physical presentation before you optimize anything else.",
+          "Here's the non-negotiable: your looks are your most powerful dating asset. Not pickup lines, not confidence scripts, not game theory -- looks. This isn't fatalism; it's a prioritization framework. Max out your physical presentation before you optimize anything else.",
         ],
         quotes: [
           {
@@ -68,7 +68,7 @@ export const PLAYBOOK_CHAPTERS: PlaybookChapter[] = [
     sections: [
       {
         paragraphs: [
-          "My mental model is built on one concept: you are the prize. Not in an arrogant way, but in a calm, settled, deeply-held way. The frame you carry into every interaction determines everything -- how she reads you, how she feels around you, and what she's willing to do with you.",
+          "Everything starts with one concept: you are the prize. Not in an arrogant way, but in a calm, settled, deeply-held way. The frame you carry into every interaction determines everything -- how she reads you, how she feels around you, and what she's willing to do with you.",
         ],
         quotes: [
           {
@@ -107,7 +107,7 @@ export const PLAYBOOK_CHAPTERS: PlaybookChapter[] = [
     sections: [
       {
         paragraphs: [
-          "Cold approach is nerve-wracking for most guys. I'm going to strip it down to exactly what you need -- and nothing more. The goal of your approach is not to impress her; it's to quickly screen for interest and move things forward.",
+          "Cold approach is nerve-wracking for most guys. Here it's stripped down to exactly what you need -- and nothing more. The goal of your approach is not to impress her; it's to quickly screen for interest and move things forward.",
         ],
         quotes: [
           {
@@ -157,7 +157,7 @@ export const PLAYBOOK_CHAPTERS: PlaybookChapter[] = [
     sections: [
       {
         paragraphs: [
-          "Most dating advice is vague -- 'be confident.' I'm giving you specific, actionable behaviors. How fast to walk, how often to talk, where to put your hands.",
+          "Most dating advice is vague -- 'be confident.' Here you get specific, actionable behaviors. How fast to walk, how often to talk, where to put your hands.",
         ],
         quotes: [
           {
@@ -194,7 +194,7 @@ export const PLAYBOOK_CHAPTERS: PlaybookChapter[] = [
     sections: [
       {
         paragraphs: [
-          "Eye contact is a fundamental skill -- possibly the single most important physical tool you have on a date. I'm going to break down the specific mechanics most guys never learn.",
+          "Eye contact is a fundamental skill -- possibly the single most important physical tool you have on a date. Here are the specific mechanics most guys never learn.",
         ],
         quotes: [
           {
@@ -216,7 +216,7 @@ export const PLAYBOOK_CHAPTERS: PlaybookChapter[] = [
       {
         heading: "Speech: The Downward Inflection Principle",
         paragraphs: [
-          "This is one of the most underrated things I teach. Most men communicate nervousness through upward vocal inflection -- unknowingly signaling uncertainty with every sentence.",
+          "This is one of the most underrated insights in the entire playbook. Most men communicate nervousness through upward vocal inflection -- unknowingly signaling uncertainty with every sentence.",
         ],
         quotes: [
           {
@@ -248,7 +248,7 @@ export const PLAYBOOK_CHAPTERS: PlaybookChapter[] = [
     sections: [
       {
         paragraphs: [
-          "Push-pull is the engine behind romantic tension. I'm going to give you the practical application -- not theory. The key is to imply, never analyze. Keep her guessing, keep her emotionally engaged.",
+          "Push-pull is the engine behind romantic tension. What follows is the practical application -- not theory. The key is to imply, never analyze. Keep her guessing, keep her emotionally engaged.",
         ],
         quotes: [],
       },
@@ -295,7 +295,7 @@ export const PLAYBOOK_CHAPTERS: PlaybookChapter[] = [
     sections: [
       {
         paragraphs: [
-          "Physical touch is a language. My approach is incremental and intentional -- each touch is a mini-test for comfort and interest. Your goal is to establish a physical connection early so escalation later feels natural, not sudden.",
+          "Physical touch is a language. The approach here is incremental and intentional -- each touch is a mini-test for comfort and interest. Your goal is to establish a physical connection early so escalation later feels natural, not sudden.",
         ],
         quotes: [],
       },
@@ -373,7 +373,7 @@ export const PLAYBOOK_CHAPTERS: PlaybookChapter[] = [
     sections: [
       {
         paragraphs: [
-          "What you do after the date matters almost as much as the date itself. My post-date strategy is built on one principle: don't be eager.",
+          "What you do after the date matters almost as much as the date itself. Your post-date strategy should be built on one principle: don't be eager.",
         ],
         quotes: [
           {
@@ -395,7 +395,7 @@ export const PLAYBOOK_CHAPTERS: PlaybookChapter[] = [
       },
       {
         paragraphs: [
-          "Patience runs through everything I'm teaching you. Whether it's post-date texting or dating apps, the guy who waits calmly is the guy who wins.",
+          "Patience runs through everything in this playbook. Whether it's post-date texting or dating apps, the guy who waits calmly is the guy who wins.",
         ],
         quotes: [],
       },
@@ -408,7 +408,7 @@ export const PLAYBOOK_CHAPTERS: PlaybookChapter[] = [
     sections: [
       {
         paragraphs: [
-          "Zoom out from the tactics for a moment. My overall philosophy isn't about tricks or manipulation -- it's about becoming a man who naturally attracts women by working on himself first, having genuine confidence, and approaching interactions from a place of abundance rather than scarcity.",
+          "Zoom out from the tactics for a moment. None of this is about tricks or manipulation -- it's about becoming a man who naturally attracts women by working on himself first, having genuine confidence, and approaching interactions from a place of abundance rather than scarcity.",
         ],
         quotes: [
           {

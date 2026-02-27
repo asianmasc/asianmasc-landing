@@ -26,7 +26,7 @@ export function SoftCTA() {
               onClick={() => trackCTA("soft")}
               className="text-accent-gold hover:text-accent-gold-light font-medium underline underline-offset-4 transition-colors"
             >
-              I share insights like these every week in the Discord
+              Benjamin drops insights like these every week in the Discord
             </a>
             .
           </p>
@@ -45,7 +45,7 @@ export function MediumCTA() {
             This playbook is a snapshot.
           </h3>
           <p className="text-gray-400 mb-6">
-            I'm dropping advice like this in the Discord live -- every day.
+            Advice like this drops in the Discord live -- every day.
           </p>
           <a
             href={DISCORD_LINK}

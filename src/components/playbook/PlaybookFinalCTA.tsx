@@ -29,8 +29,8 @@ export default function PlaybookFinalCTA() {
         </h2>
 
         <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-          Join me and hundreds of other Asian men sharing field-tested insights
-          every day in the community.
+          Join Benjamin and hundreds of other Asian men sharing field-tested
+          insights every day in the community.
         </p>
 
         <a
