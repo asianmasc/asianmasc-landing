@@ -28,7 +28,7 @@ export default function PlaybookLightbox({ src, alt, caption, onClose }: Props) 
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 backdrop-blur-sm"
+      className="fixed inset-0 z-50 bg-black/95"
       onClick={onClose}
       role="dialog"
       aria-modal="true"
@@ -44,21 +44,26 @@ export default function PlaybookLightbox({ src, alt, caption, onClose }: Props) 
         </svg>
       </button>
 
+      {/* Use absolute positioning to truly center the image in the viewport */}
       <div
-        className="flex flex-col items-center justify-center p-4 sm:p-8 max-h-full"
+        className="absolute inset-0 flex items-center justify-center"
         onClick={(e) => e.stopPropagation()}
       >
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src={src}
-          alt={alt}
-          className="max-w-[90vw] max-h-[80vh] object-contain rounded-lg"
-        />
-        {caption && (
-          <p className="mt-3 text-sm text-gray-400 text-center max-w-lg">
-            {caption}
-          </p>
-        )}
+        <div className="text-center" onClick={onClose}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={src}
+            alt={alt}
+            onClick={(e) => e.stopPropagation()}
+            style={{ maxWidth: "90vw", maxHeight: "80vh" }}
+            className="object-contain rounded-lg mx-auto block"
+          />
+          {caption && (
+            <p className="mt-3 text-sm text-gray-400">
+              {caption}
+            </p>
+          )}
+        </div>
       </div>
     </div>
   );
