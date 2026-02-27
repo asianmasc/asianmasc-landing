@@ -44,16 +44,14 @@ export default function PlaybookLightbox({ src, alt, caption, onClose }: Props) 
         </svg>
       </button>
 
-      <div
-        className="absolute inset-0 flex items-center justify-center p-4"
-        onClick={(e) => e.stopPropagation()}
-      >
+      <div className="absolute inset-0 flex items-center justify-center p-4">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={src}
           alt={alt}
+          onClick={(e) => e.stopPropagation()}
           style={{ maxWidth: "90vw", maxHeight: "85vh" }}
-          className="object-contain rounded-lg"
+          className="object-contain rounded-lg cursor-default"
         />
         {caption && (
           <p className="absolute bottom-6 left-0 right-0 text-center text-sm text-gray-400">
