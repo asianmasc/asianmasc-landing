@@ -6,10 +6,19 @@ export default function PlaybookTableOfContents() {
   function scrollToChapter(e: React.MouseEvent<HTMLAnchorElement>, id: string) {
     e.preventDefault();
     const el = document.getElementById(id);
-    if (el) {
-      el.scrollIntoView({ behavior: "smooth", block: "start" });
-      history.replaceState(null, "", `#${id}`);
+    if (!el) return;
+
+    // Force the ScrollFadeIn wrapper visible immediately so content
+    // isn't opacity-0 when the browser scrolls to it
+    const wrapper = el.parentElement;
+    if (wrapper) {
+      wrapper.style.opacity = "1";
+      wrapper.style.transform = "translateY(0)";
     }
+
+    const top = el.getBoundingClientRect().top + window.scrollY;
+    window.scrollTo({ top, behavior: "smooth" });
+    history.replaceState(null, "", `#${id}`);
   }
 
   return (
