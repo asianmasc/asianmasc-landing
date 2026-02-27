@@ -8,13 +8,17 @@ export default function PlaybookTableOfContents() {
     const el = document.getElementById(id);
     if (!el) return;
 
-    // Force the ScrollFadeIn wrapper visible immediately so content
-    // isn't opacity-0 when the browser scrolls to it
-    const wrapper = el.parentElement;
-    if (wrapper) {
+    // Force ALL ScrollFadeIn wrappers visible instantly (no transition)
+    // so layout is stable before we calculate scroll position
+    document.querySelectorAll<HTMLElement>("[data-scroll-fade]").forEach((wrapper) => {
+      wrapper.style.transition = "none";
       wrapper.style.opacity = "1";
       wrapper.style.transform = "translateY(0)";
-    }
+    });
+
+    // Force synchronous reflow so styles are applied before reading position
+    // eslint-disable-next-line @typescript-eslint/no-unused-expressions
+    el.offsetHeight;
 
     const top = el.getBoundingClientRect().top + window.scrollY;
     window.scrollTo({ top, behavior: "smooth" });

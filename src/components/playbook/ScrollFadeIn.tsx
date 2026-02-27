@@ -38,6 +38,7 @@ export default function ScrollFadeIn({ children, className = "" }: Props) {
   return (
     <div
       ref={ref}
+      data-scroll-fade
       className={`transition-all duration-700 ease-out ${
         isVisible
           ? "opacity-100 translate-y-0"
