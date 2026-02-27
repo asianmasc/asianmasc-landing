@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { createPortal } from "react-dom";
 import Image from "next/image";
 import type { PlaybookImage } from "@/data/playbook-content";
 import PlaybookLightbox from "./PlaybookLightbox";
@@ -48,14 +49,16 @@ export default function PlaybookImageGrid({ images }: Props) {
         ))}
       </div>
 
-      {lightboxIndex !== null && (
-        <PlaybookLightbox
-          src={images[lightboxIndex].src}
-          alt={images[lightboxIndex].alt}
-          caption={images[lightboxIndex].caption}
-          onClose={() => setLightboxIndex(null)}
-        />
-      )}
+      {lightboxIndex !== null &&
+        createPortal(
+          <PlaybookLightbox
+            src={images[lightboxIndex].src}
+            alt={images[lightboxIndex].alt}
+            caption={images[lightboxIndex].caption}
+            onClose={() => setLightboxIndex(null)}
+          />,
+          document.body
+        )}
     </>
   );
 }
