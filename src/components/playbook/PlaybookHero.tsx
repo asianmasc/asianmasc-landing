@@ -32,7 +32,9 @@ export default function PlaybookHero() {
         </h1>
 
         <p className="text-lg md:text-xl text-gray-400 mb-12 max-w-2xl mx-auto">
-          Raw, Field-Tested Advice -- Straight to You
+          Stop Guessing. Start Closing.
+          <br />
+          <span className="text-gray-500">Field-Tested Strategies Across 10 Chapters</span>
         </p>
 
         <a
