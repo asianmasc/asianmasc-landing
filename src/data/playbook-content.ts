@@ -24,7 +24,7 @@ export const PLAYBOOK_CHAPTERS: PlaybookChapter[] = [
     sections: [
       {
         paragraphs: [
-          "Benjamin's framework starts with one non-negotiable: your looks are your most powerful dating asset. Not pickup lines, not confidence scripts, not game theory -- looks. This isn't fatalism; it's a prioritization framework. Max out your physical presentation before optimizing anything else.",
+          "Let me start with one non-negotiable: your looks are your most powerful dating asset. Not pickup lines, not confidence scripts, not game theory -- looks. This isn't fatalism; it's a prioritization framework. Max out your physical presentation before you optimize anything else.",
         ],
         quotes: [
           {
@@ -35,7 +35,7 @@ export const PLAYBOOK_CHAPTERS: PlaybookChapter[] = [
       },
       {
         paragraphs: [
-          "The practical implication: before worrying about what to say or how to run game, your primary investment should be the gym, style, grooming, and physique. These are the returns that compound.",
+          "Here's what that means for you: before worrying about what to say or how to run game, your primary investment should be the gym, style, grooming, and physique. These are the returns that compound.",
         ],
         quotes: [
           {
@@ -46,7 +46,7 @@ export const PLAYBOOK_CHAPTERS: PlaybookChapter[] = [
       },
       {
         paragraphs: [
-          "This reframes 'game' entirely. When attraction is already present from the jump, every interaction feels natural. You're not performing -- you're confirming what she already wants.",
+          "This reframes 'game' entirely. When attraction is already there from the jump, every interaction feels natural. You're not performing -- you're confirming what she already wants.",
         ],
         quotes: [
           {
@@ -68,7 +68,7 @@ export const PLAYBOOK_CHAPTERS: PlaybookChapter[] = [
     sections: [
       {
         paragraphs: [
-          "Benjamin's mental model is built on one concept: you are the prize. Not in an arrogant way, but in a calm, settled, deeply-held way. The frame you carry into every interaction determines everything -- how she reads you, how she feels around you, and what she's willing to do with you.",
+          "My mental model is built on one concept: you are the prize. Not in an arrogant way, but in a calm, settled, deeply-held way. The frame you carry into every interaction determines everything -- how she reads you, how she feels around you, and what she's willing to do with you.",
         ],
         quotes: [
           {
@@ -79,7 +79,7 @@ export const PLAYBOOK_CHAPTERS: PlaybookChapter[] = [
       },
       {
         paragraphs: [
-          "The 'cooler than her' internal frame is a recurring theme. It's not contempt -- it's confidence grounded in self-perception.",
+          "The 'cooler than her' internal frame is everything. It's not contempt -- it's confidence grounded in how you see yourself.",
         ],
         quotes: [
           {
@@ -94,7 +94,7 @@ export const PLAYBOOK_CHAPTERS: PlaybookChapter[] = [
       },
       {
         paragraphs: [
-          "This last point is key: mastery of dating is ultimately about freedom. The goal isn't to become obsessed with it -- it's to resolve it so it stops being a source of anxiety and starts being a source of joy.",
+          "This is key: mastery of dating is ultimately about freedom. The goal isn't to become obsessed with it -- it's to resolve it so it stops being a source of anxiety and starts being a source of joy.",
         ],
         quotes: [],
       },
@@ -107,7 +107,7 @@ export const PLAYBOOK_CHAPTERS: PlaybookChapter[] = [
     sections: [
       {
         paragraphs: [
-          "Cold approach is nerve-wracking for most guys. Benjamin's framework strips it down to exactly what you need -- and nothing more. The goal of the approach is not to impress her; it's to quickly screen for interest and move things forward.",
+          "Cold approach is nerve-wracking for most guys. I'm going to strip it down to exactly what you need -- and nothing more. The goal of your approach is not to impress her; it's to quickly screen for interest and move things forward.",
         ],
         quotes: [
           {
@@ -118,7 +118,7 @@ export const PLAYBOOK_CHAPTERS: PlaybookChapter[] = [
       },
       {
         paragraphs: [
-          "Notice the structure: open with honesty (\"you're cute\"), create immediate physical contact (handshake), screen for compliance, use light teasing, then move. Every step is a small test. If she passes, you proceed. No need to force what isn't there.",
+          "Notice the structure: open with honesty (\"you're cute\"), create immediate physical contact (handshake), screen for compliance, use light teasing, then move. Every step is a small test. If she passes, you proceed. Don't force what isn't there.",
         ],
         quotes: [
           {
@@ -133,7 +133,7 @@ export const PLAYBOOK_CHAPTERS: PlaybookChapter[] = [
       },
       {
         paragraphs: [
-          "The speed principle: don't let things linger. Once you have a number, convert it to a meet. Overthinking and waiting kills momentum.",
+          "Here's a key principle: don't let things linger. Once you have her number, convert it to a meet. Overthinking and waiting kills your momentum.",
         ],
         quotes: [
           {
@@ -144,7 +144,7 @@ export const PLAYBOOK_CHAPTERS: PlaybookChapter[] = [
       },
       {
         paragraphs: [
-          "This framing is powerful. Rejection often isn't about you -- it's about timing. The girl who said no today might say yes in 3 weeks. Don't internalize it. Volume and persistence matter. The right timing finds the right buyers.",
+          "Understand this: rejection often isn't about you -- it's about timing. The girl who said no today might say yes in 3 weeks. Don't internalize it. Volume and persistence matter. The right timing finds the right buyers.",
         ],
         quotes: [],
       },
@@ -157,7 +157,7 @@ export const PLAYBOOK_CHAPTERS: PlaybookChapter[] = [
     sections: [
       {
         paragraphs: [
-          "This is where Benjamin's field experience shines. Most dating advice is vague ('be confident'). Benjamin gives you specific, actionable behaviors -- how fast to walk, how often to talk, where to put your hands.",
+          "Most dating advice is vague -- 'be confident.' I'm giving you specific, actionable behaviors. How fast to walk, how often to talk, where to put your hands.",
         ],
         quotes: [
           {
@@ -194,7 +194,7 @@ export const PLAYBOOK_CHAPTERS: PlaybookChapter[] = [
     sections: [
       {
         paragraphs: [
-          "Benjamin treats eye contact as a fundamental skill -- possibly the single most important physical tool you have on a date. The specific mechanics he describes here are rarely articulated this clearly.",
+          "Eye contact is a fundamental skill -- possibly the single most important physical tool you have on a date. I'm going to break down the specific mechanics most guys never learn.",
         ],
         quotes: [
           {
@@ -216,7 +216,7 @@ export const PLAYBOOK_CHAPTERS: PlaybookChapter[] = [
       {
         heading: "Speech: The Downward Inflection Principle",
         paragraphs: [
-          "This is one of the most underrated pieces of advice in the entire thread. Most men communicate nervousness through upward vocal inflection -- unknowingly signaling uncertainty with every sentence.",
+          "This is one of the most underrated things I teach. Most men communicate nervousness through upward vocal inflection -- unknowingly signaling uncertainty with every sentence.",
         ],
         quotes: [
           {
@@ -248,7 +248,7 @@ export const PLAYBOOK_CHAPTERS: PlaybookChapter[] = [
     sections: [
       {
         paragraphs: [
-          "Push-pull is the engine behind romantic tension. Benjamin's application of it is practical and specific -- not a theory exercise. The key is to imply, never analyze. Keep her guessing, keep her emotionally engaged.",
+          "Push-pull is the engine behind romantic tension. I'm going to give you the practical application -- not theory. The key is to imply, never analyze. Keep her guessing, keep her emotionally engaged.",
         ],
         quotes: [],
       },
@@ -295,7 +295,7 @@ export const PLAYBOOK_CHAPTERS: PlaybookChapter[] = [
     sections: [
       {
         paragraphs: [
-          "Physical touch is a language. Benjamin's approach is incremental and intentional -- each touch is a mini-test for comfort and interest. The goal is to establish a physical connection early so escalation later feels natural, not sudden.",
+          "Physical touch is a language. My approach is incremental and intentional -- each touch is a mini-test for comfort and interest. Your goal is to establish a physical connection early so escalation later feels natural, not sudden.",
         ],
         quotes: [],
       },
@@ -338,7 +338,7 @@ export const PLAYBOOK_CHAPTERS: PlaybookChapter[] = [
     sections: [
       {
         paragraphs: [
-          "For situations where closing on the first date isn't the move -- especially with more conservative girls or if you're newer to dating -- Benjamin lays out a clear, patient progression. The key is having a plan and leading every step of the way.",
+          "For situations where closing on the first date isn't the move -- especially with more conservative girls or if you're newer to dating -- here's a clear, patient progression. The key is having a plan and leading every step of the way.",
         ],
         quotes: [
           {
@@ -349,7 +349,7 @@ export const PLAYBOOK_CHAPTERS: PlaybookChapter[] = [
       },
       {
         paragraphs: [
-          "The gameplan principle is something most guys miss. Indecision kills attraction. When you already know where you're going and what's next, you move with purpose -- and that certainty is magnetic.",
+          "This is something most guys miss. Indecision kills attraction. When you already know where you're going and what's next, you move with purpose -- and that certainty is magnetic.",
         ],
         quotes: [
           {
@@ -360,7 +360,7 @@ export const PLAYBOOK_CHAPTERS: PlaybookChapter[] = [
       },
       {
         paragraphs: [
-          "Patience is a feature, not a bug. Not every girl is first-date DTF. The framework exists to navigate those situations without losing momentum or looking desperate.",
+          "Patience is a feature, not a bug. Not every girl is first-date DTF. This framework exists so you can navigate those situations without losing momentum or looking desperate.",
         ],
         quotes: [],
       },
@@ -373,7 +373,7 @@ export const PLAYBOOK_CHAPTERS: PlaybookChapter[] = [
     sections: [
       {
         paragraphs: [
-          "What you do after the date matters almost as much as the date itself. Benjamin's post-date strategy is built on one principle: don't be eager.",
+          "What you do after the date matters almost as much as the date itself. My post-date strategy is built on one principle: don't be eager.",
         ],
         quotes: [
           {
@@ -384,7 +384,7 @@ export const PLAYBOOK_CHAPTERS: PlaybookChapter[] = [
       },
       {
         paragraphs: [
-          "This is elegant in its simplicity. By waiting for her to text first, you accomplish several things: you confirm she's interested, you preserve your value, and you don't look desperate. If she doesn't text, you send one short message -- you don't send essays, you don't double-text, you don't ask 'how she's doing.'",
+          "It's that simple. By waiting for her to text first, you accomplish several things: you confirm she's interested, you preserve your value, and you don't look desperate. If she doesn't text, send one short message -- don't send essays, don't double-text, don't ask 'how she's doing.'",
         ],
         quotes: [
           {
@@ -395,7 +395,7 @@ export const PLAYBOOK_CHAPTERS: PlaybookChapter[] = [
       },
       {
         paragraphs: [
-          "Patience is a theme that runs through all of Benjamin's advice. Whether it's post-date texting or dating apps, the guy who waits calmly is the guy who wins.",
+          "Patience runs through everything I'm teaching you. Whether it's post-date texting or dating apps, the guy who waits calmly is the guy who wins.",
         ],
         quotes: [],
       },
@@ -408,7 +408,7 @@ export const PLAYBOOK_CHAPTERS: PlaybookChapter[] = [
     sections: [
       {
         paragraphs: [
-          "Zoom out from the tactics for a moment. Benjamin's overall philosophy isn't about tricks or manipulation -- it's about becoming a man who naturally attracts women by working on himself first, having genuine confidence, and approaching interactions from a place of abundance rather than scarcity.",
+          "Zoom out from the tactics for a moment. My overall philosophy isn't about tricks or manipulation -- it's about becoming a man who naturally attracts women by working on himself first, having genuine confidence, and approaching interactions from a place of abundance rather than scarcity.",
         ],
         quotes: [
           {
@@ -419,7 +419,7 @@ export const PLAYBOOK_CHAPTERS: PlaybookChapter[] = [
       },
       {
         paragraphs: [
-          "You don't need a system. You need to be attractive, be present, and be calm. The frameworks in this guide exist to get you to that natural state -- not to replace it.",
+          "You don't need a system. You need to be attractive, be present, and be calm. Everything in this playbook exists to get you to that natural state -- not to replace it.",
         ],
         quotes: [],
       },
@@ -436,7 +436,7 @@ export const KEY_PRINCIPLES: KeyPrinciple[] = [
   {
     title: "Looks are leverage.",
     description:
-      "Max your physical appearance before optimizing anything else. It's the multiplier for everything downstream.",
+      "Max out your physical appearance before you optimize anything else. It's the multiplier for everything downstream.",
   },
   {
     title: "Calm is power.",

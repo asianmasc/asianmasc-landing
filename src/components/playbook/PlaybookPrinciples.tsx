@@ -31,9 +31,8 @@ export default function PlaybookPrinciples() {
         </div>
 
         <p className="text-center text-gray-500 text-sm mt-10 max-w-xl mx-auto leading-relaxed">
-          These insights were compiled from BenjaminFCC&apos;s posts in the #dating
-          channel of the AsianMasc Discord community. All direct quotes preserve
-          his authentic voice and style.
+          These insights come straight from my posts in the #dating channel of
+          the AsianMasc Discord. Every word is my authentic voice.
         </p>
       </div>
     </section>

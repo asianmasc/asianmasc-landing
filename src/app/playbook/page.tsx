@@ -14,7 +14,7 @@ import PlaybookAnalytics from "@/components/playbook/PlaybookAnalytics";
 export const metadata: Metadata = {
   title: "The BenjaminFCC Dating Playbook | AsianMasc",
   description:
-    "Raw insights & field-tested dating advice compiled from BenjaminFCC's Discord posts. 10 chapters covering looks, mindset, cold approach, dates, and more.",
+    "My raw, field-tested dating advice -- straight to you. 10 chapters covering looks, mindset, cold approach, dates, and more.",
   alternates: {
     canonical: "/playbook",
   },
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "The BenjaminFCC Dating Playbook",
     description:
-      "Raw insights & field-tested dating advice from the #dating channel. 10 chapters of real, actionable advice.",
+      "My raw, field-tested dating advice -- straight to you. 10 chapters of real, actionable advice.",
     type: "article",
     url: "https://asianmasc.com/playbook",
     siteName: "AsianMasc",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "The BenjaminFCC Dating Playbook",
     description:
-      "Raw insights & field-tested dating advice from the #dating channel. 10 chapters of real, actionable advice.",
+      "My raw, field-tested dating advice -- straight to you. 10 chapters of real, actionable advice.",
   },
 };
 
@@ -98,7 +98,7 @@ export default function PlaybookPage() {
 
         <footer className="bg-dark-900 py-8 text-center">
           <p className="text-gray-500 text-sm">
-            AsianMasc &bull; Compiled from BenjaminFCC&apos;s #dating channel posts
+            AsianMasc &bull; BenjaminFCC &bull; #dating channel
           </p>
         </footer>
       </main>
