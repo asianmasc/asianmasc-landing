@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useCallback } from "react";
-import Image from "next/image";
 
 interface Props {
   src: string;
@@ -29,7 +28,7 @@ export default function PlaybookLightbox({ src, alt, caption, onClose }: Props) 
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 backdrop-blur-sm p-4 sm:p-8"
+      className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 backdrop-blur-sm"
       onClick={onClose}
       role="dialog"
       aria-modal="true"
@@ -46,20 +45,17 @@ export default function PlaybookLightbox({ src, alt, caption, onClose }: Props) 
       </button>
 
       <div
-        className="relative max-w-4xl max-h-[90vh] w-full"
+        className="flex flex-col items-center justify-center p-4 sm:p-8 max-h-full"
         onClick={(e) => e.stopPropagation()}
       >
-        <Image
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
           src={src}
           alt={alt}
-          width={1200}
-          height={1200}
-          className="w-full h-auto max-h-[85vh] object-contain rounded-lg"
-          sizes="(max-width: 1024px) 95vw, 900px"
-          priority
+          className="max-w-[90vw] max-h-[80vh] object-contain rounded-lg"
         />
         {caption && (
-          <p className="mt-3 text-sm text-gray-400 text-center">
+          <p className="mt-3 text-sm text-gray-400 text-center max-w-lg">
             {caption}
           </p>
         )}
