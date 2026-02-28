@@ -52,7 +52,7 @@ export default function FitnessHero() {
           id="fitness-hero-heading"
           className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4 leading-tight"
         >
-          <span className="text-white">tricallyourmama&apos;s</span>
+          <span className="text-white">Tricallyourmama&apos;s</span>
           <br />
           <span style={{ color: "#ff6b35" }}>Fitness Playbook</span>
         </h1>
