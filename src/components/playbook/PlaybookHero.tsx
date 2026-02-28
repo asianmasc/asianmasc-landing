@@ -19,7 +19,7 @@ export default function PlaybookHero() {
 
       <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
         <p className="text-sm md:text-base tracking-[0.3em] text-accent-gold font-medium uppercase mb-6">
-          AsianMasc Community Presents
+          AsianMasc Exclusive
         </p>
 
         <h1

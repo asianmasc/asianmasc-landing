@@ -44,7 +44,7 @@ export default function FitnessHero() {
           className="text-sm md:text-base tracking-[0.3em] font-medium uppercase mb-6"
           style={{ color: "#ff6b35" }}
         >
-          AsianMasc Community Presents
+          AsianMasc Exclusive
         </p>
 
         <h1
