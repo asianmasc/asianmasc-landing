@@ -19,17 +19,17 @@ export default function FitnessTransformation() {
           id="transformation-heading"
           className="text-2xl md:text-3xl font-bold text-white text-center mb-3"
         >
-          AlanTan Came Back From a 2-Year Break and Did the Work
+          AlanTan Lost 27 lbs and Never Missed a Day
         </h2>
         <p className="text-gray-300 text-center max-w-xl mx-auto mb-4">
-          173 lbs. Hadn&apos;t touched a barbell in two years. Started back with
-          3-hour full-body sessions and 100 lbs of assist on pull-ups. Logged
-          every single day in the AM fitness thread since July 2024.
+          Two years away from the gym. 173 lbs. Needed 100 lbs of assist
+          just to do a pull-up. Most people would have stayed on the couch.
+          Alan showed up to the AM fitness thread in July 2024 and logged
+          every single day since.
         </p>
         <p className="text-gray-400 text-center max-w-xl mx-auto mb-10">
-          Now he&apos;s running 5/3/1 BBB four days a week, sitting at 146 lbs with
-          visible chest development and a jawline that wasn&apos;t there before.
-          Nearly two years of showing up. That&apos;s it.
+          19 months later he&apos;s at 146 lbs, running 5/3/1 BBB, and the chest
+          and jawline tell the whole story. We&apos;re proud of this man.
         </p>
 
         <div className="grid grid-cols-2 gap-4 md:gap-6">
