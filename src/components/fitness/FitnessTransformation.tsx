@@ -13,23 +13,23 @@ export default function FitnessTransformation() {
           className="text-sm tracking-[0.25em] uppercase font-medium text-center mb-3"
           style={{ color: "#ff6b35" }}
         >
-          86 Days on Tri&apos;s Program
+          19 Months. 27 lbs Lost.
         </p>
         <h2
           id="transformation-heading"
           className="text-2xl md:text-3xl font-bold text-white text-center mb-3"
         >
-          AlanTan Went From Invisible to Undeniable
+          AlanTan Came Back From a 2-Year Break and Did the Work
         </h2>
         <p className="text-gray-300 text-center max-w-xl mx-auto mb-4">
-          140 lbs and soft. Couldn&apos;t see the muscle he&apos;d been building for over a
-          year. Then he joined Tri&apos;s program inside the AM community, ran 5/3/1
-          BBB four days a week, and did the one thing most guys won&apos;t: he stayed
-          consistent.
+          173 lbs. Hadn&apos;t touched a barbell in two years. Started back with
+          3-hour full-body sessions and 100 lbs of assist on pull-ups. Logged
+          every single day in the AM fitness thread since July 2024.
         </p>
         <p className="text-gray-400 text-center max-w-xl mx-auto mb-10">
-          Three months later: 146 lbs. Chest filled out. Jawline visible. Wrist
-          wraps worn through. Same guy. Completely different presence.
+          Now he&apos;s running 5/3/1 BBB four days a week, sitting at 146 lbs with
+          visible chest development and a jawline that wasn&apos;t there before.
+          Nearly two years of showing up. That&apos;s it.
         </p>
 
         <div className="grid grid-cols-2 gap-4 md:gap-6">
@@ -37,14 +37,14 @@ export default function FitnessTransformation() {
             <div className="relative aspect-[3/4] w-full overflow-hidden rounded-lg border border-dark-500">
               <Image
                 src="/playbook/transformation-before.jpg"
-                alt="AlanTan before Tri's program, higher body fat, softer physique at 140 lbs"
+                alt="AlanTan at 173 lbs, higher body fat, softer physique before rejoining the gym"
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 50vw, 340px"
                 priority
               />
               <span className="absolute top-3 left-3 bg-black/70 text-gray-300 text-xs font-medium px-2.5 py-1 rounded">
-                Day 1
+                July 2024
               </span>
             </div>
           </figure>
@@ -53,7 +53,7 @@ export default function FitnessTransformation() {
             <div className="relative aspect-[3/4] w-full overflow-hidden rounded-lg border border-dark-500">
               <Image
                 src="/playbook/transformation-after.jpg"
-                alt="AlanTan after 86 days on Tri's program, leaner and more muscular at 146 lbs"
+                alt="AlanTan at 146 lbs after 19 months, leaner with visible muscle definition"
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 50vw, 340px"
@@ -66,7 +66,7 @@ export default function FitnessTransformation() {
                   color: "#fff",
                 }}
               >
-                Day 86
+                Feb 2026
               </span>
             </div>
           </figure>
@@ -81,9 +81,9 @@ export default function FitnessTransformation() {
           }}
         >
           {[
-            { value: "+6 lbs", label: "Lean Mass" },
-            { value: "4x/wk", label: "Training" },
-            { value: "86 days", label: "On Program" },
+            { value: "-27 lbs", label: "173 → 146" },
+            { value: "19 mo", label: "Consistent" },
+            { value: "Daily", label: "Logged" },
           ].map((stat) => (
             <div key={stat.label} className="text-center">
               <div
