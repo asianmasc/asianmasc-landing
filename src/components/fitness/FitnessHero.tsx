@@ -80,7 +80,7 @@ export default function FitnessHero() {
               >
                 {stat.value}
               </div>
-              <div className="text-xs md:text-sm text-gray-400 tracking-wide uppercase mt-1">
+              <div className="text-xs md:text-sm text-gray-300 tracking-wide uppercase mt-1">
                 {stat.label}
               </div>
             </div>
