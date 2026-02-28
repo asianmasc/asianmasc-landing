@@ -382,6 +382,25 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         ],
       },
       {
+        heading: "Accountability Is the Foundation",
+        paragraphs: [
+          "This isn't just about fitness. The program exists to rebuild something most men have lost in the digital age: integrity, honor, and accountability to other men.",
+          "When Tri was younger, if he wanted to party, he had to leave the house. If he wanted to talk to a girl, he had to walk up to her with real fear and real anxiety. There was no shortcut. Those moments forced you to build skills. You either adapted or stayed the same.",
+          "Today everything is easy. You swipe instead of approach. You text instead of speak. You disappear instead of explain. That ease has a cost. Men ghost. Men stop showing up because there is no immediate consequence. Loyalty fades when everything is digital and nothing feels real.",
+          "This is what the program is designed to reverse. Showing up matters. Responding matters. Your word matters. You become the kind of man who faces things head on again — and that carries into every area of your life, not just the gym.",
+        ],
+        quotes: [
+          {
+            text: "This isn't just about fitness. It's about becoming the kind of man who faces things head on again.",
+            attribution: "Coach Tri",
+          },
+          {
+            text: "This program exists to rebuild something most men lost: integrity, honor, and accountability to other men.",
+            attribution: "Coach Tri",
+          },
+        ],
+      },
+      {
         heading: "Identity Before Motivation",
         paragraphs: [
           "Motivation is unreliable. It spikes when you start something new, and fades when the novelty wears off — usually around week 3-4. The guys who are still training consistently at year 2 are not more motivated than you. They've just built it into their identity.",
@@ -405,6 +424,38 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         quotes: [
           {
             text: "Missing one workout doesn't matter. Missing every workout after that one does. Get back in.",
+            attribution: "Coach Tri",
+          },
+        ],
+      },
+      {
+        heading: "Wins Stack. Misses Chip Away.",
+        paragraphs: [
+          "Every time you complete a task — every workout hit, every pushup done, every commitment kept — you stack a small win. Those wins compound. Each one adds a little more confidence, a little more self-trust. You start to believe you're the kind of person who does what they say they'll do.",
+          "The opposite is equally true. Every time you miss something you said you'd do, it chips away at your self-trust. You feel it. You think about it. Over time, the accumulated misses erode your confidence in yourself to do the right thing.",
+          "This is why consistency matters beyond the physical results. It's not just about the pushups or the protein or the PRs. It's about becoming someone you can trust. Show up for yourself consistently enough, and you start to believe you can do hard things. That belief carries into every area of your life.",
+        ],
+        quotes: [
+          {
+            text: "Each time we stack our wins we gain a little more confidence in ourselves. Each time you miss a task, it chips away at your self trust.",
+            attribution: "Coach Tri",
+          },
+        ],
+      },
+      {
+        heading: "The Brotherhood Principle",
+        paragraphs: [
+          "This is a community-based program. When one messes up, we all mess up. When times get rough, you don't bail on each other — you uplift and carry the homie up.",
+          "That's not just a nice sentiment. It's a structural feature. The accountability to other people is the mechanism that keeps you honest when your own motivation fails — and it will fail. Accountability to yourself is fragile. Accountability to men you respect is not.",
+          "The goal is to be a solid man to your fellow man. Present. Responsive. Reliable. Not because someone is watching, but because that's who you're becoming.",
+        ],
+        quotes: [
+          {
+            text: "When one messes up, we all mess up. When times get rough we don't bail on each other, instead we uplift and carry the homie up.",
+            attribution: "Coach Tri",
+          },
+          {
+            text: "Be present and be a solid mfer to your fellow man.",
             attribution: "Coach Tri",
           },
         ],
@@ -506,7 +557,19 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         ],
         quotes: [
           {
-            text: "The gym is the most honest place you'll ever be. You get back exactly what you put in — no more, no less. Put in the work.",
+            text: "Everyone was pumped, amped up and ready to fucking kill. That energy has to be brought every single day. There are no do overs and no second chances. We get one shot at life to be known for something great.",
+            attribution: "Coach Tri",
+          },
+        ],
+      },
+      {
+        heading: "Rule 13 — Be present. Keep your word.",
+        paragraphs: [
+          "The program isn't just physical. Show up. Respond. Do what you said you'd do. That's the whole game — in the gym and everywhere else. The man who keeps his word to himself keeps it to everyone around him too.",
+        ],
+        quotes: [
+          {
+            text: "It's always an honor to have the trust from everyone and to be part of a group of hungry go-getters.",
             attribution: "Coach Tri",
           },
         ],
