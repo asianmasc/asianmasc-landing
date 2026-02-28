@@ -52,10 +52,14 @@ export default function FitnessHero() {
           id="fitness-hero-heading"
           className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4 leading-tight"
         >
-          <span className="text-white">Tri&apos;s</span>
+          <span className="text-white">tricallyourmama&apos;s</span>
           <br />
           <span style={{ color: "#ff6b35" }}>Fitness Playbook</span>
         </h1>
+
+        <p className="text-sm md:text-base text-gray-500 mb-4">
+          by Tri Nguyen
+        </p>
 
         <p className="text-lg md:text-xl text-gray-300 mb-4 max-w-2xl mx-auto">
           Stop Guessing. Start Gaining.

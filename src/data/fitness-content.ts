@@ -10,32 +10,32 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
     sections: [
       {
         paragraphs: [
-          "Strength training is the foundation. Not cardio. Not yoga. Not whatever group fitness class is trending. The entire game is progressive overload — add weight or reps over time, or you're just exercising.",
+          "If you're not strength training, you're wasting your time. Not cardio. Not yoga. Not whatever group fitness class is trending. You need to be under a barbell, adding weight or reps over time. That's the only thing that changes how you look.",
         ],
         quotes: [
           {
             text: "Progressive overload is the whole game. You add weight or reps over time, or you're just spinning your wheels.",
-            attribution: "Tri",
+            attribution: "Tri Nguyen",
           },
           {
             text: "consistency is the only thing that actually matters in the long run. you can have the perfect program, perfect diet, perfect sleep -- but if you're inconsistent none of it matters. show up.",
-            attribution: "Tri",
+            attribution: "Tri Nguyen",
           },
           {
             text: "i've been lifting for years and the times i made the most progress were when i was focused on moving heavier weight, eating enough to support it, and recovering. every time i got fancy with it i made less progress.",
-            attribution: "Tri",
+            attribution: "Tri Nguyen",
           },
         ],
       },
       {
         heading: "Why Strength Training Builds the Best Physique",
         paragraphs: [
-          "A guy who's 180 lbs at 15% body fat looks completely different from 180 lbs at 25%. Same scale. Night and day in the mirror. Strength training shifts that composition — and the muscle you build burns more calories at rest, so you stay leaner long-term.",
+          "You at 180 lbs and 15% body fat look completely different from you at 180 lbs and 25%. Same scale. Night and day in the mirror. Strength training shifts that composition — and every pound of muscle you add burns more calories at rest, keeping you leaner long-term.",
         ],
         quotes: [
           {
             text: "The physique you want lives in the squat rack and the bench press, not on the treadmill. Get your priorities straight.",
-            attribution: "Tri",
+            attribution: "Tri Nguyen",
           },
         ],
       },
@@ -48,12 +48,12 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
     sections: [
       {
         paragraphs: [
-          "Run a proven program for minimum 3 months. Stop hopping. GZCLP, Starting Strength, PHUL, PPL — pick one, commit, and run it. Compound movements first, isolation after. Rep ranges: 5-8 for strength, 8-12 for hypertrophy.",
+          "You need a proven program and you need to run it for minimum 3 months. GZCLP, Starting Strength, PHUL, PPL — pick one, commit, and run it. Compound movements first, isolation after. Rep ranges: 5-8 for strength, 8-12 for hypertrophy.",
         ],
         quotes: [
           {
             text: "the best program is the one you'll actually run consistently for 6+ months. stop searching for the optimal program. run 5/3/1, GZCLP, Greyskull, Starting Strength -- all of these work. the problem is people run them for 6 weeks, decide it's not working, and switch. that's why they don't make progress.",
-            attribution: "Tri",
+            attribution: "Tri Nguyen",
           },
         ],
       },
@@ -67,7 +67,7 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         quotes: [
           {
             text: "The program matters less than the execution. A mediocre program run perfectly beats a perfect program run half-assed every time.",
-            attribution: "Tri",
+            attribution: "Tri Nguyen",
           },
         ],
         videos: [
@@ -87,11 +87,11 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         quotes: [
           {
             text: "If you're not tracking, you're guessing. And you're probably wrong.",
-            attribution: "Tri",
+            attribution: "Tri Nguyen",
           },
           {
             text: "track your lifts. i don't care what app or method. just know what you lifted last time and try to beat it. that's the whole program design in one sentence.",
-            attribution: "Tri",
+            attribution: "Tri Nguyen",
           },
         ],
       },
@@ -111,7 +111,7 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         quotes: [
           {
             text: "Protein is the one thing you cannot mess up. Hit your number every single day, no exceptions.",
-            attribution: "Tri",
+            attribution: "Tri Nguyen",
           },
         ],
       },
@@ -124,7 +124,7 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         quotes: [
           {
             text: "You think you're eating enough. You're almost certainly not. Track for two weeks and you'll be shocked at where your protein actually lands.",
-            attribution: "Tri",
+            attribution: "Tri Nguyen",
           },
         ],
       },
@@ -136,15 +136,15 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         quotes: [
           {
             text: "you can eat whatever you want as long as you hit your protein and your calories. chicken and rice is great but it's not magic. a burger with enough protein is just as effective. don't overcomplicate food unless you want to.",
-            attribution: "Tri",
+            attribution: "Tri Nguyen",
           },
           {
             text: "meal timing barely matters. eat when it works for you. what matters is hitting your total protein and calories for the day. people obsess over pre/post workout windows when they're not even hitting their protein targets.",
-            attribution: "Tri",
+            attribution: "Tri Nguyen",
           },
           {
             text: "creatine is the only supplement with consistent evidence behind it. take it. it's cheap. it works. stop asking about pre-workout and fat burners.",
-            attribution: "Tri",
+            attribution: "Tri Nguyen",
           },
         ],
       },
@@ -157,14 +157,13 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
     sections: [
       {
         paragraphs: [
-          "A bulk is a caloric surplus plus training. A cut is a deficit plus training. That's it. You're either eating more than you burn to build muscle, or eating less than you burn to reveal it.",
-          "Bulk until you can't stand being as soft as you are. Cut until you're lean enough to be satisfied. Then repeat. Most guys spin out at maintenance forever wondering why nothing changes. Pick a direction, commit to it, see it through.",
-          "For a clean bulk: aim for 200-300 calories above maintenance. For a cut: 300-500 calories below. Aggressive deficits kill muscle. Dirty bulks bury your physique in fat. Stay in range.",
+          "You're either eating more than you burn to build muscle, or eating less than you burn to reveal it. That's what a bulk and cut is — and you need to pick one. If you're sitting at maintenance wondering why nothing changes, that's why.",
+          "For a clean bulk: aim for 200-300 calories above maintenance. For a cut: 300-500 calories below. Aggressive deficits kill your muscle. Dirty bulks bury your physique in fat. Stay in range and commit to the direction.",
         ],
         quotes: [
           {
             text: "Bulk til you're done. Cut til you're lean. Repeat. That's the whole cycle.",
-            attribution: "Tri",
+            attribution: "Tri Nguyen",
           },
         ],
         videos: [
@@ -184,29 +183,29 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         quotes: [
           {
             text: "Stop cutting every time you gain 2 pounds. You're not getting fat — you're building. Let it happen.",
-            attribution: "Tri",
+            attribution: "Tri Nguyen",
           },
           {
             text: "if you're a beginner (under 1 year of consistent training) you can gain muscle and lose fat at the same time -- body recomposition. eat at maintenance, train hard, get enough protein. this stops working once you're more advanced.",
-            attribution: "Tri",
+            attribution: "Tri Nguyen",
           },
         ],
       },
       {
         heading: "Maintaining Muscle During a Cut",
         paragraphs: [
-          "Three things protect muscle on a cut: protein, strength training, and a moderate deficit. You already know the protein target. Maintain the deficit in the 300-500 calorie range — not aggressive. And keep lifting heavy.",
-          "The biggest mistake guys make on a cut: they drop the weights and do high reps to \"tone.\" This does nothing useful. Your body holds on to muscle because it's being used to move heavy things. Stop using it for that, and it starts looking for ways to reduce metabolic cost — which means less muscle.",
-          "Cardio is useful on a cut, but use it to increase the deficit, not as a replacement for the weight room. Add 2-3 sessions of 20-30 minutes of moderate cardio per week. Done.",
+          "Three things protect your muscle on a cut: protein, strength training, and a moderate deficit. You already know the protein target. Keep the deficit at 300-500 calories and keep lifting heavy.",
+          "If you drop the weight and switch to high reps to \"tone\" — you're telling your body it doesn't need that muscle anymore. Your body holds muscle because you're using it to move heavy things. Take that signal away, and it starts cutting the muscle for you.",
+          "Use cardio to widen the deficit, not to replace the weight room. 2-3 sessions of 20-30 minutes per week. That's it.",
         ],
         quotes: [
           {
             text: "Keep lifting heavy on a cut. The signal to keep muscle is the same regardless of your calories — use it or lose it.",
-            attribution: "Tri",
+            attribution: "Tri Nguyen",
           },
           {
             text: "the biggest mistake people make when cutting is dropping weight too fast and tanking their performance in the gym. if your lifts are dropping significantly you're cutting too hard or not eating enough protein.",
-            attribution: "Tri",
+            attribution: "Tri Nguyen",
           },
         ],
       },
@@ -219,12 +218,12 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
     sections: [
       {
         paragraphs: [
-          "These five movements are your entire program. Everything else is accessory work. Learn these, get strong at these, and you will have 80% of the physique you're looking for. Mastering form here is the single highest-leverage thing you can do in the gym, especially in the first two years.",
+          "If you master these five movements, you have 80% of the physique you're chasing. Everything else is accessory work. Your first two years in the gym should revolve around getting strong at these — nothing else comes close in leverage.",
         ],
         quotes: [
           {
             text: "Learn the big 5 and you've got 80% of what you need. The rest is just details.",
-            attribution: "Tri",
+            attribution: "Tri Nguyen",
           },
         ],
       },
@@ -236,7 +235,7 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         quotes: [
           {
             text: "most people squat wrong because they don't have the mobility or they're not bracing properly. before you worry about weight, get the pattern right. brace your core like you're about to take a punch, big breath, push the floor away.",
-            attribution: "Tri",
+            attribution: "Tri Nguyen",
           },
         ],
       },
@@ -248,7 +247,7 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         quotes: [
           {
             text: "bench press: retract your scapula before you unrack. keep them retracted throughout the set. this protects your shoulders and puts your chest in the right position to do the work. most people's shoulder pain from bench comes from not doing this.",
-            attribution: "Tri",
+            attribution: "Tri Nguyen",
           },
         ],
       },
@@ -260,7 +259,7 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         quotes: [
           {
             text: "deadlift is a hip hinge, not a squat. push the floor away with your legs while pulling the bar into your body. if the bar is drifting away from you your form is off. bar stays in contact with your shins on the way up.",
-            attribution: "Tri",
+            attribution: "Tri Nguyen",
           },
         ],
       },
@@ -272,7 +271,7 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         quotes: [
           {
             text: "overhead press is the most neglected lift. people don't do it because it's hard and the weight is humbling. that's exactly why you should do it. nothing builds shoulders and upper back like heavy pressing overhead.",
-            attribution: "Tri",
+            attribution: "Tri Nguyen",
           },
         ],
       },
@@ -284,11 +283,11 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         quotes: [
           {
             text: "I don't care what your bench is. If you can't do 10 clean pull-ups, that's where your energy goes first.",
-            attribution: "Tri",
+            attribution: "Tri Nguyen",
           },
           {
             text: "rows are as important as presses. most people do twice as much pressing as pulling and wonder why their posture is bad and their shoulders hurt. match your row volume to your press volume at minimum.",
-            attribution: "Tri",
+            attribution: "Tri Nguyen",
           },
         ],
       },
@@ -301,18 +300,18 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
     sections: [
       {
         paragraphs: [
-          "Sleep is the most underrated anabolic compound in existence and it's completely free. 7-9 hours minimum. Not 6. Not 5 hours plus a nap. Actual sleep. This is when muscle protein synthesis peaks, when growth hormone releases, and when your CNS recovers from heavy training.",
-          "Deload every 6-8 weeks. Drop the weight by 40%, keep the movements, same rep ranges — just back off the intensity. Your central nervous system accumulates fatigue faster than your muscles adapt, and if you don't manage it proactively, it manages you through injury or a plateau.",
-          "The workout is just the stimulus. The gym session tells your body it needs to adapt. Recovery is when adaptation actually happens. If you're training hard but recovering poorly, you're just accumulating damage.",
+          "If you're sleeping less than 7 hours, you're sabotaging your own gains. Your muscle protein synthesis peaks during sleep. Your growth hormone releases during sleep. Your CNS recovers during sleep. You need 7-9 hours. Not 6. Not 5 plus a nap.",
+          "Deload every 6-8 weeks. Drop your weight by 40%, keep the movements, same rep ranges — just back off the intensity. Your nervous system accumulates fatigue faster than your muscles adapt. Manage it proactively, or it manages you through injury.",
+          "You don't build muscle in the gym — you break it down. You build it when you recover. If you're training hard but recovering poorly, you're just accumulating damage.",
         ],
         quotes: [
           {
             text: "You don't grow in the gym. You grow when you sleep. Stop treating rest like a reward and start treating it like training.",
-            attribution: "Tri",
+            attribution: "Tri Nguyen",
           },
           {
             text: "sleep is the most underrated performance enhancer. 7-9 hours a night. if you're sleeping 5-6 hours and wondering why you're not making progress, start there. no pre-workout, no supplement, nothing replaces sleep.",
-            attribution: "Tri",
+            attribution: "Tri Nguyen",
           },
         ],
       },
@@ -324,7 +323,7 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         quotes: [
           {
             text: "Your recovery protocol is as important as your training protocol. If one of them is trash, the other one doesn't matter.",
-            attribution: "Tri",
+            attribution: "Tri Nguyen",
           },
         ],
       },
@@ -338,7 +337,7 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         quotes: [
           {
             text: "walking is one of the best things you can do for recovery on off days. low intensity, gets blood moving, doesn't tax your recovery. 30-60 minutes. most people don't do this and then wonder why they're always sore.",
-            attribution: "Tri",
+            attribution: "Tri Nguyen",
           },
         ],
       },
@@ -364,7 +363,7 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         quotes: [
           {
             text: "ego lifting is a tax you pay eventually. you can get away with bad form until you can't. spend the time to learn to move well. it'll pay dividends for years and keep you out of the physio office.",
-            attribution: "Tri",
+            attribution: "Tri Nguyen",
           },
         ],
       },
@@ -377,7 +376,7 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         quotes: [
           {
             text: "guys who do 4 exercises of bicep curls and skip squats will never look how they want. the big compound movements are how you build the foundation. curls, flyes, lateral raises -- these are finishers, not the main event.",
-            attribution: "Tri",
+            attribution: "Tri Nguyen",
           },
         ],
       },
@@ -390,33 +389,32 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
     sections: [
       {
         paragraphs: [
-          "The guys who win aren't the most talented — they're the most consistent. Talent gets you started. Consistency gets you there.",
-          "Progress is not linear. It never has been and it never will be. You will have weeks where everything clicks — PRs, good sleep, diet is on. You'll also have weeks where nothing moves, you feel flat, and you're questioning if any of it is working. Both are normal. Both are part of the process.",
-          "Three steps forward, six steps back, two more forward. It all adds up over time. The only people who don't make it are the ones who quit. Don't quit.",
+          "You don't need to be talented. You need to be consistent. Talent gets you started. Consistency gets you there.",
+          "Your progress will not be linear. You'll have weeks where everything clicks — PRs, good sleep, diet is on. You'll also have weeks where nothing moves, you feel flat, and you're questioning if any of it works. Both are normal. Both are part of your process.",
+          "Three steps forward, six steps back, two more forward. It all adds up. The only way you don't make it is if you quit.",
         ],
         quotes: [
           {
             text: "When summer rolls around I'm expecting EVERYONE in this program to have a six pack. I'll see you all at the end of Q2. 🫡",
-            attribution: "Tri",
+            attribution: "Tri Nguyen",
           },
         ],
       },
       {
         heading: "Accountability Is the Foundation",
         paragraphs: [
-          "This isn't just about fitness. The program exists to rebuild something most men have lost in the digital age: integrity, honor, and accountability to other men.",
-          "When Tri was younger, if he wanted to party, he had to leave the house. If he wanted to talk to a girl, he had to walk up to her with real fear and real anxiety. There was no shortcut. Those moments forced you to build skills. You either adapted or stayed the same.",
-          "Today everything is easy. You swipe instead of approach. You text instead of speak. You disappear instead of explain. That ease has a cost. Men ghost. Men stop showing up because there is no immediate consequence. Loyalty fades when everything is digital and nothing feels real.",
-          "This is what the program is designed to reverse. Showing up matters. Responding matters. Your word matters. You become the kind of man who faces things head on again — and that carries into every area of your life, not just the gym.",
+          "This isn't just about your physique. It's about rebuilding something you've probably lost in the digital age: integrity, honor, and accountability to other men.",
+          "Think about it — you swipe instead of approach. You text instead of speak. You disappear instead of explain. That ease has a cost. You ghost. You stop showing up because there's no immediate consequence. That pattern erodes who you are.",
+          "This program reverses that. You show up. You respond. Your word means something again. You become the kind of man who faces things head on — and that carries into every area of your life, not just the gym.",
         ],
         quotes: [
           {
             text: "This isn't just about fitness. It's about becoming the kind of man who faces things head on again.",
-            attribution: "Tri",
+            attribution: "Tri Nguyen",
           },
           {
             text: "This program exists to rebuild something most men lost: integrity, honor, and accountability to other men.",
-            attribution: "Tri",
+            attribution: "Tri Nguyen",
           },
         ],
       },
@@ -430,15 +428,15 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         quotes: [
           {
             text: "Nobody stays motivated. What separates the guys who get the physique from those who don't is they built a system so motivation doesn't matter.",
-            attribution: "Tri",
+            attribution: "Tri Nguyen",
           },
           {
             text: "motivation is temporary. discipline is what actually gets you to the gym on the days you don't feel like it. don't rely on motivation. build a habit so automatic that not going feels weird.",
-            attribution: "Tri",
+            attribution: "Tri Nguyen",
           },
           {
             text: "the guy you're comparing yourself to in the gym has been at it for years, has different genetics, might be on gear, and you don't know his full story. run your own race. the only valid comparison is to your past self.",
-            attribution: "Tri",
+            attribution: "Tri Nguyen",
           },
         ],
       },
@@ -446,49 +444,49 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         heading: "How to Handle Setbacks",
         paragraphs: [
           "You'll miss workouts. You'll have weeks where your diet is off. You'll get sick, travel, get busy. This is guaranteed. The question is how you respond.",
-          "The wrong response: \"I missed a week, I've lost all my gains, I have to start over.\" This is catastrophizing and it leads to quitting. Muscle is not lost in a week. Consistency over months matters — one bad week is noise.",
-          "The right response: miss one workout, get to the next one. Miss a week, get back in the gym next Monday. Setbacks are part of the timeline. The guys who succeed have had just as many setbacks as the guys who quit — they just didn't let the setbacks become the end of the story.",
+          "The wrong response: \"I missed a week, I've lost all my gains, I have to start over.\" That's catastrophizing and it leads to quitting. You don't lose muscle in a week. One bad week is noise.",
+          "The right response: you miss one workout, you get to the next one. You miss a week, you're back in the gym Monday. You've had just as many setbacks as anyone who quit — you just didn't let them become the end of the story.",
         ],
         quotes: [
           {
             text: "Missing one workout doesn't matter. Missing every workout after that one does. Get back in.",
-            attribution: "Tri",
+            attribution: "Tri Nguyen",
           },
           {
             text: "one bad week doesn't erase months of work. one bad meal doesn't ruin your diet. the compounding goes both ways -- consistent effort builds up, and occasional breaks don't tear it all down. just get back at it.",
-            attribution: "Tri",
+            attribution: "Tri Nguyen",
           },
         ],
       },
       {
         heading: "Wins Stack. Misses Chip Away.",
         paragraphs: [
-          "Every time you complete a task — every workout hit, every pushup done, every commitment kept — you stack a small win. Those wins compound. Each one adds a little more confidence, a little more self-trust. You start to believe you're the kind of person who does what they say they'll do.",
-          "The opposite is equally true. Every time you miss something you said you'd do, it chips away at your self-trust. You feel it. You think about it. Over time, the accumulated misses erode your confidence in yourself to do the right thing.",
-          "This is why consistency matters beyond the physical results. It's not just about the pushups or the protein or the PRs. It's about becoming someone you can trust. Show up for yourself consistently enough, and you start to believe you can do hard things. That belief carries into every area of your life.",
+          "Every workout you hit, every commitment you keep — you stack a small win. Those wins compound. Each one adds a little more confidence, a little more self-trust. You start to believe you're the kind of person who does what he says he'll do.",
+          "Every time you miss something you committed to, it chips away at that trust. You feel it. Over time, the accumulated misses erode your confidence in yourself.",
+          "This is why consistency matters beyond your physique. It's not just about the pushups or the protein. It's about becoming someone you trust. Show up for yourself consistently enough, and you start to believe you can do hard things.",
         ],
         quotes: [
           {
             text: "Each time we stack our wins we gain a little more confidence in ourselves. Each time you miss a task, it chips away at your self trust.",
-            attribution: "Tri",
+            attribution: "Tri Nguyen",
           },
         ],
       },
       {
         heading: "The Brotherhood Principle",
         paragraphs: [
-          "This is a community-based program. When one messes up, we all mess up. When times get rough, you don't bail on each other — you uplift and carry the homie up.",
-          "That's not just a nice sentiment. It's a structural feature. The accountability to other people is the mechanism that keeps you honest when your own motivation fails — and it will fail. Accountability to yourself is fragile. Accountability to men you respect is not.",
-          "The goal is to be a solid man to your fellow man. Present. Responsive. Reliable. Not because someone is watching, but because that's who you're becoming.",
+          "You're not doing this alone. When you mess up, the group feels it. When times get rough, you don't bail — you carry each other.",
+          "Your accountability to yourself is fragile. Your accountability to men you respect is not. That's the mechanism that keeps you honest when your own motivation fails — and it will fail.",
+          "Be present. Be responsive. Be reliable. Not because someone is watching, but because that's who you're becoming.",
         ],
         quotes: [
           {
             text: "When one messes up, we all mess up. When times get rough we don't bail on each other, instead we uplift and carry the homie up.",
-            attribution: "Tri",
+            attribution: "Tri Nguyen",
           },
           {
             text: "Be present and be a solid mfer to your fellow man.",
-            attribution: "Tri",
+            attribution: "Tri Nguyen",
           },
         ],
       },
@@ -590,7 +588,7 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         quotes: [
           {
             text: "Everyone was pumped, amped up and ready to fucking kill. That energy has to be brought every single day. There are no do overs and no second chances. We get one shot at life to be known for something great.",
-            attribution: "Tri",
+            attribution: "Tri Nguyen",
           },
         ],
       },
@@ -602,7 +600,7 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         quotes: [
           {
             text: "It's always an honor to have the trust from everyone and to be part of a group of hungry go-getters.",
-            attribution: "Tri",
+            attribution: "Tri Nguyen",
           },
         ],
       },

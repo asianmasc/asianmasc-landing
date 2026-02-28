@@ -14,9 +14,9 @@ import PlaybookAnalytics from "@/components/playbook/PlaybookAnalytics";
 import RelatedPlaybooks from "@/components/shared/RelatedPlaybooks";
 
 export const metadata: Metadata = {
-  title: "Tri's Fitness Playbook | AsianMasc",
+  title: "tricallyourmama's Fitness Playbook | AsianMasc",
   description:
-    "Field-tested training, nutrition & mindset from Coach Tri's AM Fitness Program. 9 chapters. No BS. Free.",
+    "Field-tested training, nutrition & mindset from Tri Nguyen's AM Fitness Program. 9 chapters. No BS. Free.",
   alternates: {
     canonical: "/fitness",
   },
@@ -25,18 +25,18 @@ export const metadata: Metadata = {
     follow: true,
   },
   openGraph: {
-    title: "Tri's Fitness Playbook",
+    title: "tricallyourmama's Fitness Playbook",
     description:
-      "Field-tested training, nutrition & mindset from Coach Tri's AM Fitness Program. 9 chapters. No BS. Free.",
+      "Field-tested training, nutrition & mindset from Tri Nguyen's AM Fitness Program. 9 chapters. No BS. Free.",
     type: "article",
     url: "https://asianmasc.com/fitness",
     siteName: "AsianMasc",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Tri's Fitness Playbook",
+    title: "tricallyourmama's Fitness Playbook",
     description:
-      "Field-tested training, nutrition & mindset from Coach Tri's AM Fitness Program. 9 chapters. No BS. Free.",
+      "Field-tested training, nutrition & mindset from Tri Nguyen's AM Fitness Program. 9 chapters. No BS. Free.",
   },
 };
 
@@ -50,11 +50,11 @@ const thirdGroup = FITNESS_CHAPTERS.slice(6, 9);
 const fitnessJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Tri's Fitness Playbook",
+  headline: "tricallyourmama's Fitness Playbook",
   description:
-    "Field-tested training, nutrition & mindset from Coach Tri's AM Fitness Program. 9 chapters. No BS. Free.",
+    "Field-tested training, nutrition & mindset from Tri Nguyen's AM Fitness Program. 9 chapters. No BS. Free.",
   url: "https://asianmasc.com/fitness",
-  author: { "@type": "Person", name: "Coach Tri" },
+  author: { "@type": "Person", name: "Tri Nguyen" },
   publisher: {
     "@type": "Organization",
     name: "AsianMasc",
@@ -93,7 +93,7 @@ export default function FitnessPage() {
         ))}
 
         <ScrollFadeIn>
-          <SoftCTA coachName="Tri" />
+          <SoftCTA coachName="Tri Nguyen" />
         </ScrollFadeIn>
 
         {secondGroup.map((chapter, i) => (
@@ -128,7 +128,7 @@ export default function FitnessPage() {
 
         <footer className="bg-dark-900 py-8 text-center">
           <p className="text-gray-400 text-sm">
-            AsianMasc &bull; Coach Tri &bull; AM Fitness Program
+            AsianMasc &bull; Tri Nguyen (@tricallyourmama) &bull; AM Fitness Program
           </p>
         </footer>
       </main>

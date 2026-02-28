@@ -31,7 +31,7 @@ export default function FitnessPrinciples() {
         </div>
 
         <p className="text-center text-gray-400 text-sm mt-10 max-w-xl mx-auto leading-relaxed">
-          Compiled from Coach Tri&apos;s guidance in the #am-fitness channel of the
+          Compiled from Tri Nguyen&apos;s (@tricallyourmama) guidance in the #am-fitness channel of the
           AsianMasc Discord. All quotes preserve his authentic voice.
         </p>
       </div>
