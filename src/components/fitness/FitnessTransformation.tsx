@@ -29,7 +29,7 @@ export default function FitnessTransformation() {
         </p>
         <p className="text-gray-400 text-center max-w-xl mx-auto mb-10">
           19 months later he&apos;s at 146 lbs, running 5/3/1 BBB, and the chest
-          and jawline tell the whole story. We&apos;re proud of this man.
+          and jawline tell the whole story. Fat to fit. Alan became a Chang.
         </p>
 
         <div className="grid grid-cols-2 gap-4 md:gap-6">
