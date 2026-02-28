@@ -18,11 +18,11 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         quotes: [
           {
             text: "Progressive overload is the whole game. You add weight or reps over time, or you're just spinning your wheels.",
-            attribution: "Coach Tri",
+            attribution: "Tri",
           },
           {
             text: "Most guys are exercising, not training. There's a massive difference. One is a habit. The other is a system.",
-            attribution: "Coach Tri",
+            attribution: "Tri",
           },
           {
             text: "consistency is the only thing that actually matters in the long run. you can have the perfect program, perfect diet, perfect sleep -- but if you're inconsistent none of it matters. show up.",
@@ -48,7 +48,7 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         quotes: [
           {
             text: "The physique you want lives in the squat rack and the bench press, not on the treadmill. Get your priorities straight.",
-            attribution: "Coach Tri",
+            attribution: "Tri",
           },
         ],
       },
@@ -68,7 +68,7 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         quotes: [
           {
             text: "Most guys derail themselves by switching programs every few weeks. Pick something, run it for 3 months minimum, then reassess.",
-            attribution: "Coach Tri",
+            attribution: "Tri",
           },
           {
             text: "the best program is the one you'll actually run consistently for 6+ months. stop searching for the optimal program. run 5/3/1, GZCLP, Greyskull, Starting Strength -- all of these work. the problem is people run them for 6 weeks, decide it's not working, and switch. that's why they don't make progress.",
@@ -87,7 +87,7 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         quotes: [
           {
             text: "The program matters less than the execution. A mediocre program run perfectly beats a perfect program run half-assed every time.",
-            attribution: "Coach Tri",
+            attribution: "Tri",
           },
         ],
       },
@@ -100,7 +100,7 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         quotes: [
           {
             text: "If you're not tracking, you're guessing. And you're probably wrong.",
-            attribution: "Coach Tri",
+            attribution: "Tri",
           },
           {
             text: "track your lifts. i don't care what app or method. just know what you lifted last time and try to beat it. that's the whole program design in one sentence.",
@@ -124,7 +124,7 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         quotes: [
           {
             text: "Protein is the one thing you cannot mess up. Hit your number every single day, no exceptions.",
-            attribution: "Coach Tri",
+            attribution: "Tri",
           },
         ],
       },
@@ -138,7 +138,7 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         quotes: [
           {
             text: "You think you're eating enough. You're almost certainly not. Track for two weeks and you'll be shocked at where your protein actually lands.",
-            attribution: "Coach Tri",
+            attribution: "Tri",
           },
         ],
       },
@@ -183,7 +183,7 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         quotes: [
           {
             text: "Bulk til you're done. Cut til you're lean. Repeat. That's the whole cycle.",
-            attribution: "Coach Tri",
+            attribution: "Tri",
           },
         ],
       },
@@ -198,7 +198,7 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         quotes: [
           {
             text: "Stop cutting every time you gain 2 pounds. You're not getting fat — you're building. Let it happen.",
-            attribution: "Coach Tri",
+            attribution: "Tri",
           },
           {
             text: "if you're a beginner (under 1 year of consistent training) you can gain muscle and lose fat at the same time -- body recomposition. eat at maintenance, train hard, get enough protein. this stops working once you're more advanced.",
@@ -216,7 +216,7 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         quotes: [
           {
             text: "Keep lifting heavy on a cut. The signal to keep muscle is the same regardless of your calories — use it or lose it.",
-            attribution: "Coach Tri",
+            attribution: "Tri",
           },
           {
             text: "the biggest mistake people make when cutting is dropping weight too fast and tanking their performance in the gym. if your lifts are dropping significantly you're cutting too hard or not eating enough protein.",
@@ -238,7 +238,7 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         quotes: [
           {
             text: "Learn the big 5 and you've got 80% of what you need. The rest is just details.",
-            attribution: "Coach Tri",
+            attribution: "Tri",
           },
         ],
       },
@@ -308,7 +308,7 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         quotes: [
           {
             text: "I don't care what your bench is. If you can't do 10 clean pull-ups, that's where your energy goes first.",
-            attribution: "Coach Tri",
+            attribution: "Tri",
           },
           {
             text: "rows are as important as presses. most people do twice as much pressing as pulling and wonder why their posture is bad and their shoulders hurt. match your row volume to your press volume at minimum.",
@@ -332,7 +332,7 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         quotes: [
           {
             text: "You don't grow in the gym. You grow when you sleep. Stop treating rest like a reward and start treating it like training.",
-            attribution: "Coach Tri",
+            attribution: "Tri",
           },
           {
             text: "sleep is the most underrated performance enhancer. 7-9 hours a night. if you're sleeping 5-6 hours and wondering why you're not making progress, start there. no pre-workout, no supplement, nothing replaces sleep.",
@@ -351,7 +351,7 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         quotes: [
           {
             text: "Your recovery protocol is as important as your training protocol. If one of them is trash, the other one doesn't matter.",
-            attribution: "Coach Tri",
+            attribution: "Tri",
           },
         ],
       },
@@ -456,7 +456,7 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         quotes: [
           {
             text: "The 6 mistakes I see most are all fixable in a week. The problem is most guys don't know they're making them.",
-            attribution: "Coach Tri",
+            attribution: "Tri",
           },
         ],
       },
@@ -476,7 +476,7 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         quotes: [
           {
             text: "When summer rolls around I'm expecting EVERYONE in this program to have a six pack. I'll see you all at the end of Q2. 🫡",
-            attribution: "Coach Tri",
+            attribution: "Tri",
           },
         ],
       },
@@ -491,11 +491,11 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         quotes: [
           {
             text: "This isn't just about fitness. It's about becoming the kind of man who faces things head on again.",
-            attribution: "Coach Tri",
+            attribution: "Tri",
           },
           {
             text: "This program exists to rebuild something most men lost: integrity, honor, and accountability to other men.",
-            attribution: "Coach Tri",
+            attribution: "Tri",
           },
         ],
       },
@@ -509,7 +509,7 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         quotes: [
           {
             text: "Nobody stays motivated. What separates the guys who get the physique from those who don't is they built a system so motivation doesn't matter.",
-            attribution: "Coach Tri",
+            attribution: "Tri",
           },
           {
             text: "motivation is temporary. discipline is what actually gets you to the gym on the days you don't feel like it. don't rely on motivation. build a habit so automatic that not going feels weird.",
@@ -531,7 +531,7 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         quotes: [
           {
             text: "Missing one workout doesn't matter. Missing every workout after that one does. Get back in.",
-            attribution: "Coach Tri",
+            attribution: "Tri",
           },
           {
             text: "one bad week doesn't erase months of work. one bad meal doesn't ruin your diet. the compounding goes both ways -- consistent effort builds up, and occasional breaks don't tear it all down. just get back at it.",
@@ -549,7 +549,7 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         quotes: [
           {
             text: "Each time we stack our wins we gain a little more confidence in ourselves. Each time you miss a task, it chips away at your self trust.",
-            attribution: "Coach Tri",
+            attribution: "Tri",
           },
         ],
       },
@@ -563,11 +563,11 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         quotes: [
           {
             text: "When one messes up, we all mess up. When times get rough we don't bail on each other, instead we uplift and carry the homie up.",
-            attribution: "Coach Tri",
+            attribution: "Tri",
           },
           {
             text: "Be present and be a solid mfer to your fellow man.",
-            attribution: "Coach Tri",
+            attribution: "Tri",
           },
         ],
       },
@@ -669,7 +669,7 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         quotes: [
           {
             text: "Everyone was pumped, amped up and ready to fucking kill. That energy has to be brought every single day. There are no do overs and no second chances. We get one shot at life to be known for something great.",
-            attribution: "Coach Tri",
+            attribution: "Tri",
           },
         ],
       },
@@ -681,7 +681,7 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         quotes: [
           {
             text: "It's always an honor to have the trust from everyone and to be part of a group of hungry go-getters.",
-            attribution: "Coach Tri",
+            attribution: "Tri",
           },
         ],
       },
