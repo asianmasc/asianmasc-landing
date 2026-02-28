@@ -3,7 +3,6 @@
 export default function FitnessHero() {
   const stats = [
     { value: "9", label: "Chapters" },
-    { value: "182K+", label: "Community Members" },
     { value: "Free", label: "No Paywall" },
   ];
 
