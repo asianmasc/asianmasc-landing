@@ -17,7 +17,7 @@ export default function FitnessTrainingHall() {
           id="training-hall-heading"
           className="text-2xl md:text-3xl font-bold text-white text-center mb-3"
         >
-          Tricallyourmama Built You a Dashboard
+          AsianMasc Built You a Dashboard
         </h2>
         <p className="text-gray-400 text-center max-w-xl mx-auto mb-10">
           Every AM member gets free access to{" "}
