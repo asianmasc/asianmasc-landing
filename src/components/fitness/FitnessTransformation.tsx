@@ -19,7 +19,7 @@ export default function FitnessTransformation() {
           id="transformation-heading"
           className="text-2xl md:text-3xl font-bold text-white text-center mb-3"
         >
-          AlanTan Lost 27 lbs and Never Missed a Day
+          Same Guy. 19 Months Apart.
         </h2>
         <p className="text-gray-300 text-center max-w-xl mx-auto mb-4">
           Two years away from the gym. 173 lbs. Needed 100 lbs of assist
