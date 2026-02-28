@@ -24,6 +24,18 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
             text: "Most guys are exercising, not training. There's a massive difference. One is a habit. The other is a system.",
             attribution: "Coach Tri",
           },
+          {
+            text: "consistency is the only thing that actually matters in the long run. you can have the perfect program, perfect diet, perfect sleep -- but if you're inconsistent none of it matters. show up.",
+            attribution: "Tri",
+          },
+          {
+            text: "people spend too much time optimizing instead of lifting. what program, what split, what time of day, pre-workout or not. none of that matters as much as putting in the work consistently for years. not weeks.",
+            attribution: "Tri",
+          },
+          {
+            text: "i've been lifting for years and the times i made the most progress were when i was focused on moving heavier weight, eating enough to support it, and recovering. every time i got fancy with it i made less progress.",
+            attribution: "Tri",
+          },
         ],
       },
       {
@@ -58,6 +70,10 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
             text: "Most guys derail themselves by switching programs every few weeks. Pick something, run it for 3 months minimum, then reassess.",
             attribution: "Coach Tri",
           },
+          {
+            text: "the best program is the one you'll actually run consistently for 6+ months. stop searching for the optimal program. run 5/3/1, GZCLP, Greyskull, Starting Strength -- all of these work. the problem is people run them for 6 weeks, decide it's not working, and switch. that's why they don't make progress.",
+            attribution: "Tri",
+          },
         ],
       },
       {
@@ -85,6 +101,10 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
           {
             text: "If you're not tracking, you're guessing. And you're probably wrong.",
             attribution: "Coach Tri",
+          },
+          {
+            text: "track your lifts. i don't care what app or method. just know what you lifted last time and try to beat it. that's the whole program design in one sentence.",
+            attribution: "Tri",
           },
         ],
       },
@@ -132,7 +152,20 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
           "Eggs: 6g protein each. Cheap. Versatile. A dozen eggs per week is part of every serious lifter's baseline.",
           "Protein shakes: 20-25g per scoop, mix with water or milk. Use to fill gaps when you're behind on protein for the day — not as a primary source.",
         ],
-        quotes: [],
+        quotes: [
+          {
+            text: "you can eat whatever you want as long as you hit your protein and your calories. chicken and rice is great but it's not magic. a burger with enough protein is just as effective. don't overcomplicate food unless you want to.",
+            attribution: "Tri",
+          },
+          {
+            text: "meal timing barely matters. eat when it works for you. what matters is hitting your total protein and calories for the day. people obsess over pre/post workout windows when they're not even hitting their protein targets.",
+            attribution: "Tri",
+          },
+          {
+            text: "creatine is the only supplement with consistent evidence behind it. take it. it's cheap. it works. stop asking about pre-workout and fat burners.",
+            attribution: "Tri",
+          },
+        ],
       },
     ],
   },
@@ -167,6 +200,10 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
             text: "Stop cutting every time you gain 2 pounds. You're not getting fat — you're building. Let it happen.",
             attribution: "Coach Tri",
           },
+          {
+            text: "if you're a beginner (under 1 year of consistent training) you can gain muscle and lose fat at the same time -- body recomposition. eat at maintenance, train hard, get enough protein. this stops working once you're more advanced.",
+            attribution: "Tri",
+          },
         ],
       },
       {
@@ -180,6 +217,10 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
           {
             text: "Keep lifting heavy on a cut. The signal to keep muscle is the same regardless of your calories — use it or lose it.",
             attribution: "Coach Tri",
+          },
+          {
+            text: "the biggest mistake people make when cutting is dropping weight too fast and tanking their performance in the gym. if your lifts are dropping significantly you're cutting too hard or not eating enough protein.",
+            attribution: "Tri",
           },
         ],
       },
@@ -208,7 +249,12 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
           "Common mistakes: squatting with a forward lean because of tight hip flexors or ankles. Fix: stretch hip flexors daily, elevate heels slightly with plates if ankles are the issue while you work on mobility. Another common mistake: letting the knees cave inward at the bottom. Fix: focus on pushing knees out and practice with a resistance band above the knees to retrain the pattern.",
           "Depth matters. Squatting to parallel or below targets the glutes and hamstrings properly. Quarter squats load the quads and stress the knees without the full benefit. Go down.",
         ],
-        quotes: [],
+        quotes: [
+          {
+            text: "most people squat wrong because they don't have the mobility or they're not bracing properly. before you worry about weight, get the pattern right. brace your core like you're about to take a punch, big breath, push the floor away.",
+            attribution: "Tri",
+          },
+        ],
       },
       {
         heading: "Bench Press",
@@ -217,7 +263,12 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
           "The shoulder death trap: bench pressing with your elbows flared 90 degrees out from your torso. This puts enormous stress on the shoulder joint. Keep your elbows at 45-75 degrees from your torso. Your shoulder will thank you.",
           "Feet on the floor, leg drive into the floor helps stabilize the press. Don't bench with your feet in the air unless you've been coached to do it for a specific reason.",
         ],
-        quotes: [],
+        quotes: [
+          {
+            text: "bench press: retract your scapula before you unrack. keep them retracted throughout the set. this protects your shoulders and puts your chest in the right position to do the work. most people's shoulder pain from bench comes from not doing this.",
+            attribution: "Tri",
+          },
+        ],
       },
       {
         heading: "Deadlift",
@@ -226,7 +277,12 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
           "The number one deadlift cue that fixes most problems: \"push the floor away\" instead of \"pull the bar up.\" You're not rowing a barbell — you're doing a leg press with a barbell in your hands. This shifts activation to the legs and keeps the bar close to the body.",
           "Mixed grip vs. double overhand vs. straps: start with double overhand to build grip strength. When the weight gets heavy (usually around 2x bodyweight), add straps or switch to mixed grip for working sets. Grip should not be your limiting factor once you're past the beginner stage.",
         ],
-        quotes: [],
+        quotes: [
+          {
+            text: "deadlift is a hip hinge, not a squat. push the floor away with your legs while pulling the bar into your body. if the bar is drifting away from you your form is off. bar stays in contact with your shins on the way up.",
+            attribution: "Tri",
+          },
+        ],
       },
       {
         heading: "Overhead Press (OHP)",
@@ -235,7 +291,12 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
           "The OHP is the most technical of the big lifts and the most neglected. Guys skip it because it's hard and the weights are humbling. Don't skip it. Strong OHP = broad, capped shoulders. Nothing builds the deltoids like heavy pressing overhead.",
           "Common problem: pressing the bar forward instead of straight up. This happens when your core isn't braced properly. Squeeze your glutes, brace your abs, keep your ribs down, and press straight up.",
         ],
-        quotes: [],
+        quotes: [
+          {
+            text: "overhead press is the most neglected lift. people don't do it because it's hard and the weight is humbling. that's exactly why you should do it. nothing builds shoulders and upper back like heavy pressing overhead.",
+            attribution: "Tri",
+          },
+        ],
       },
       {
         heading: "Pull-ups",
@@ -248,6 +309,10 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
           {
             text: "I don't care what your bench is. If you can't do 10 clean pull-ups, that's where your energy goes first.",
             attribution: "Coach Tri",
+          },
+          {
+            text: "rows are as important as presses. most people do twice as much pressing as pulling and wonder why their posture is bad and their shoulders hurt. match your row volume to your press volume at minimum.",
+            attribution: "Tri",
           },
         ],
       },
@@ -268,6 +333,10 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
           {
             text: "You don't grow in the gym. You grow when you sleep. Stop treating rest like a reward and start treating it like training.",
             attribution: "Coach Tri",
+          },
+          {
+            text: "sleep is the most underrated performance enhancer. 7-9 hours a night. if you're sleeping 5-6 hours and wondering why you're not making progress, start there. no pre-workout, no supplement, nothing replaces sleep.",
+            attribution: "Tri",
           },
         ],
       },
@@ -293,7 +362,12 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
           "During deload: same lifts, same rep ranges, 40% reduction in weight. Focus on form, feel the movement, stay active. It's not a vacation from training — it's training with the dial turned down.",
           "After deload: you'll often hit a PR the first week back. This is supercompensation — your body adapted during the recovery and came back stronger than before. Deloads work. Stop skipping them.",
         ],
-        quotes: [],
+        quotes: [
+          {
+            text: "walking is one of the best things you can do for recovery on off days. low intensity, gets blood moving, doesn't tax your recovery. 30-60 minutes. most people don't do this and then wonder why they're always sore.",
+            attribution: "Tri",
+          },
+        ],
       },
     ],
   },
@@ -314,7 +388,12 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
           "Loading the bar with more than you can control. You get no stimulus — just injury risk. The muscle doesn't know how much weight is on the bar. It only responds to tension, time under tension, and metabolic stress. A full range-of-motion rep with controlled weight delivers more stimulus than a partial rep with ego weight.",
           "Fix: film your sets. Watch the video. If it looks bad, it is bad. Drop the weight by 20-30%, own the range of motion, then build back up properly.",
         ],
-        quotes: [],
+        quotes: [
+          {
+            text: "ego lifting is a tax you pay eventually. you can get away with bad form until you can't. spend the time to learn to move well. it'll pay dividends for years and keep you out of the physio office.",
+            attribution: "Tri",
+          },
+        ],
       },
       {
         heading: "Mistake 2: Program Hopping",
@@ -322,7 +401,12 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
           "Switching routines every few weeks before anything adapts. Fitness YouTube is a trap — there is always a newer, cooler-looking program out. Your gains require time. Adaptation happens over months, not weeks.",
           "Fix: pick a program, commit to it for 12 weeks, track your numbers, assess at week 12. If you're not progressing, then troubleshoot. If you are progressing, keep going.",
         ],
-        quotes: [],
+        quotes: [
+          {
+            text: "program hopping is the biggest killer of progress. you run something for 4 weeks, don't see the results you wanted, find something else online, start over. you never get far enough into any program to actually adapt and grow. pick something and commit.",
+            attribution: "Tri",
+          },
+        ],
       },
       {
         heading: "Mistake 3: Undereating Protein",
@@ -330,7 +414,12 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
           "You cannot out-train a protein deficit. When you're in a calorie deficit and training hard, your body looks for energy anywhere it can find it — including muscle tissue. Adequate protein is the primary defense against this. 1g per lb of bodyweight, every day, no exceptions.",
           "Fix: track your protein for two weeks. Most guys discover they're hitting 60-70g on a good day when they need 150-200g. Start with protein shakes to bridge the gap while you figure out your food sources.",
         ],
-        quotes: [],
+        quotes: [
+          {
+            text: "the number one reason people don't build muscle is they're not eating enough. full stop. they train hard, recover, do everything right, but they're eating at maintenance or in a slight deficit and wondering why they look the same after 6 months.",
+            attribution: "Tri",
+          },
+        ],
       },
       {
         heading: "Mistake 4: Skipping Legs",
@@ -338,7 +427,12 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
           "You get half a physique. Squats and deadlifts aren't optional. Quads, hamstrings, and glutes are the largest muscle groups in the body — training them releases the most growth hormone and testosterone of any movements. Skipping legs also creates obvious visual imbalance.",
           "Fix: put squats and deadlifts on Day 1 of your program — not Day 3. When you're fresh, you push harder. When you're tired, you skip the hard stuff.",
         ],
-        quotes: [],
+        quotes: [
+          {
+            text: "guys who do 4 exercises of bicep curls and skip squats will never look how they want. the big compound movements are how you build the foundation. curls, flyes, lateral raises -- these are finishers, not the main event.",
+            attribution: "Tri",
+          },
+        ],
       },
       {
         heading: "Mistake 5: Neglecting Sleep",
@@ -346,7 +440,12 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
           "Sleep kills recovery, tanks testosterone, and destroys progress. Studies consistently show that sleep deprivation reduces muscle protein synthesis by 18% and drops testosterone levels measurably. You can't supplement your way around bad sleep.",
           "Fix: treat sleep with the same seriousness you treat your training. Schedule it. Protect it. 7-9 hours.",
         ],
-        quotes: [],
+        quotes: [
+          {
+            text: "you don't grow in the gym. you break down in the gym and grow when you recover. if you're not recovering -- sleeping well, eating enough, managing stress -- the training isn't for you, it's working against you.",
+            attribution: "Tri",
+          },
+        ],
       },
       {
         heading: "Mistake 6: No Progressive Overload",
@@ -412,6 +511,14 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
             text: "Nobody stays motivated. What separates the guys who get the physique from those who don't is they built a system so motivation doesn't matter.",
             attribution: "Coach Tri",
           },
+          {
+            text: "motivation is temporary. discipline is what actually gets you to the gym on the days you don't feel like it. don't rely on motivation. build a habit so automatic that not going feels weird.",
+            attribution: "Tri",
+          },
+          {
+            text: "the guy you're comparing yourself to in the gym has been at it for years, has different genetics, might be on gear, and you don't know his full story. run your own race. the only valid comparison is to your past self.",
+            attribution: "Tri",
+          },
         ],
       },
       {
@@ -425,6 +532,10 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
           {
             text: "Missing one workout doesn't matter. Missing every workout after that one does. Get back in.",
             attribution: "Coach Tri",
+          },
+          {
+            text: "one bad week doesn't erase months of work. one bad meal doesn't ruin your diet. the compounding goes both ways -- consistent effort builds up, and occasional breaks don't tear it all down. just get back at it.",
+            attribution: "Tri",
           },
         ],
       },
