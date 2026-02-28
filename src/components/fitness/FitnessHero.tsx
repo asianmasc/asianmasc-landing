@@ -65,7 +65,7 @@ export default function FitnessHero() {
           Stop Guessing. Start Gaining.
         </p>
         <p className="text-base md:text-lg text-gray-400 mb-10 max-w-2xl mx-auto">
-          Field-Tested Training, Nutrition &amp; Mindset — Straight From the AM Fitness Program
+          Field-Tested Training, Nutrition &amp; Mindset. Straight From the AM Fitness Program.
         </p>
 
         {/* Stats bar */}

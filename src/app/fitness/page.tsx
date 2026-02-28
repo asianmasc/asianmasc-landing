@@ -5,6 +5,7 @@ import FitnessTransformation from "@/components/fitness/FitnessTransformation";
 import FitnessTableOfContents from "@/components/fitness/FitnessTableOfContents";
 import FitnessPrinciples from "@/components/fitness/FitnessPrinciples";
 import FitnessFinalCTA from "@/components/fitness/FitnessFinalCTA";
+import FitnessTrainingHall from "@/components/fitness/FitnessTrainingHall";
 import PlaybookChapter from "@/components/playbook/PlaybookChapter";
 import { SoftCTA, MediumCTA } from "@/components/playbook/PlaybookCTA";
 import PlaybookProgressBar from "@/components/playbook/PlaybookProgressBar";
@@ -120,6 +121,10 @@ export default function FitnessPage() {
 
         <ScrollFadeIn>
           <FitnessPrinciples />
+        </ScrollFadeIn>
+
+        <ScrollFadeIn>
+          <FitnessTrainingHall />
         </ScrollFadeIn>
 
         <RelatedPlaybooks currentPage="fitness" />
