@@ -10,10 +10,7 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
     sections: [
       {
         paragraphs: [
-          "Strength training is the foundation. Not cardio. Not yoga. Not whatever group fitness class is trending. Strength training. The entire game is progressive overload — add weight or reps over time, or you're just exercising. There's a difference between exercising and training, and most guys never figure that out.",
-          "The distinction matters more than most people think. Exercising is showing up and doing something physical. Training is showing up with a specific goal, tracking your progress, and systematically making it harder week after week. One gets you tired. The other gets you results.",
-          "Cardio is a tool, not a strategy. It has its place — conditioning, heart health, caloric burn — but it is not your primary driver of body composition change. Get stronger first. Everything follows from that. When guys start with cardio as their primary lever, they burn some calories, lose some muscle along with fat, and end up skinny-fat. Not the goal.",
-          "The other thing most guys get wrong: they optimize for the wrong metric. They want to burn calories, so they run. They want to \"tone up,\" so they do light weights for high reps. Neither of those does what they think it does. Muscle is the engine. Burn calories by building more engine. Tone up by adding muscle so there's something to see when the fat comes off.",
+          "Strength training is the foundation. Not cardio. Not yoga. Not whatever group fitness class is trending. The entire game is progressive overload — add weight or reps over time, or you're just exercising.",
         ],
         quotes: [
           {
@@ -21,15 +18,7 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
             attribution: "Tri",
           },
           {
-            text: "Most guys are exercising, not training. There's a massive difference. One is a habit. The other is a system.",
-            attribution: "Tri",
-          },
-          {
             text: "consistency is the only thing that actually matters in the long run. you can have the perfect program, perfect diet, perfect sleep -- but if you're inconsistent none of it matters. show up.",
-            attribution: "Tri",
-          },
-          {
-            text: "people spend too much time optimizing instead of lifting. what program, what split, what time of day, pre-workout or not. none of that matters as much as putting in the work consistently for years. not weeks.",
             attribution: "Tri",
           },
           {
@@ -41,9 +30,7 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
       {
         heading: "Why Strength Training Builds the Best Physique",
         paragraphs: [
-          "Muscle is denser than fat. A guy who's 180 lbs with 15% body fat looks completely different from a guy who's 180 lbs with 25% body fat. Same number on the scale. Night and day in the mirror. Strength training shifts that composition in your favor.",
-          "Muscle also burns calories at rest. Every pound of muscle you add increases your basal metabolic rate — the calories your body burns just to exist. More muscle means you can eat more and stay lean. This is the actual long-term leverage play. The guys who can eat whatever they want and stay lean aren't genetically blessed — they've built a lot of muscle.",
-          "And the aesthetic argument is simple: the physique that looks best — broad shoulders, V-taper, defined arms and chest, visible abs — is built through strength training. Cardio doesn't build shoulders. Running doesn't build a chest. The only thing that does is loading up a barbell and moving it.",
+          "A guy who's 180 lbs at 15% body fat looks completely different from 180 lbs at 25%. Same scale. Night and day in the mirror. Strength training shifts that composition — and the muscle you build burns more calories at rest, so you stay leaner long-term.",
         ],
         quotes: [
           {
@@ -61,15 +48,9 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
     sections: [
       {
         paragraphs: [
-          "Run a proven program for minimum 3 months. Stop hopping. This is the number one mistake guys make — they switch programs every few weeks before anything has a chance to work. GZCLP, Starting Strength, PHUL, PPL — pick one, commit, and run it.",
-          "The reason proven programs work is not magic — it's structure. They have appropriate volume, built-in progression, and a logical split that allows recovery between sessions. When you're writing your own program before you've trained for 2 years, you're almost certainly getting at least one of those three wrong.",
-          "Structure: 3-4 days per week. Compound movements first, isolation after. That means squat, bench, deadlift, overhead press, and pull-ups before you touch cables or machines. Rep ranges: 5-8 for strength, 8-12 for hypertrophy. Most guys should be in the 8-12 range until they've built a real foundation.",
+          "Run a proven program for minimum 3 months. Stop hopping. GZCLP, Starting Strength, PHUL, PPL — pick one, commit, and run it. Compound movements first, isolation after. Rep ranges: 5-8 for strength, 8-12 for hypertrophy.",
         ],
         quotes: [
-          {
-            text: "Most guys derail themselves by switching programs every few weeks. Pick something, run it for 3 months minimum, then reassess.",
-            attribution: "Tri",
-          },
           {
             text: "the best program is the one you'll actually run consistently for 6+ months. stop searching for the optimal program. run 5/3/1, GZCLP, Greyskull, Starting Strength -- all of these work. the problem is people run them for 6 weeks, decide it's not working, and switch. that's why they don't make progress.",
             attribution: "Tri",
@@ -82,12 +63,18 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
           "For beginners (less than 1 year of consistent training): GZCLP or Starting Strength. Both are linear progression programs — you add weight every session, which is possible because you're new and your body is incredibly responsive to stimulus. If you can do this, you should. It's the fastest gains you'll ever experience.",
           "For intermediate lifters (1-3 years): PHUL (Power Hypertrophy Upper Lower) or a well-structured PPL (Push Pull Legs) running 6 days per week. At this point your nervous system is adapted enough that you need more frequency and volume to drive adaptation.",
           "For advanced lifters (3+ years): You probably already know what to run. If you're still program hopping at this stage, that's the problem — not the program.",
-          "The common thread across all of them: they're built around the big compound lifts, they have you progressing over time, and they give your body enough time to recover between sessions. Don't overthink it. Pick one and execute.",
         ],
         quotes: [
           {
             text: "The program matters less than the execution. A mediocre program run perfectly beats a perfect program run half-assed every time.",
             attribution: "Tri",
+          },
+        ],
+        videos: [
+          {
+            youtubeId: "6gxfLt1yx68",
+            title: "My Full Week of Workouts | 6 Day PPL Split",
+            caption: "Tri's full week of workouts — a 6-day PPL split in action.",
           },
         ],
       },
@@ -132,8 +119,7 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         heading: "How to Calculate Your Calories",
         paragraphs: [
           "Start with your TDEE — Total Daily Energy Expenditure. This is how many calories your body burns in a day at your current activity level. Use any TDEE calculator online; they're accurate enough to get started. Once you have that number, add 200-300 calories to bulk, subtract 300-500 to cut.",
-          "Weigh yourself every morning after using the bathroom. Take a weekly average. This smooths out daily water weight fluctuations. If your weekly average is going up, you're in a surplus. If it's going down, you're in a deficit. Simple.",
-          "Calorie tracking apps like MyFitnessPal or Cronometer will change your life for the first few months. After a while you'll develop enough intuition that you won't need to track as strictly — but when you're starting out, the data is invaluable.",
+          "Weigh yourself every morning after using the bathroom. Take a weekly average. If it's going up, you're in a surplus. Going down, deficit. Simple.",
         ],
         quotes: [
           {
@@ -145,12 +131,7 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
       {
         heading: "High-Protein Foods That Actually Work",
         paragraphs: [
-          "Chicken breast: 25-30g protein per 100g, extremely lean. Cook in bulk on Sundays and eat all week. Boring? Yes. Effective? Absolutely.",
-          "Ground beef (90/10): 22g protein per 100g, more fat than chicken — good if you're bulking. Easy to cook, versatile, hits different from chicken breast.",
-          "Greek yogurt: 15-17g protein per 170g serving, easy to eat, doesn't require cooking. Pair with fruit and you have a solid snack.",
-          "Cottage cheese: 12-14g protein per half cup, extremely high in casein — slow-digesting protein that's great before bed.",
-          "Eggs: 6g protein each. Cheap. Versatile. A dozen eggs per week is part of every serious lifter's baseline.",
-          "Protein shakes: 20-25g per scoop, mix with water or milk. Use to fill gaps when you're behind on protein for the day — not as a primary source.",
+          "The staples: chicken breast, ground beef, eggs, Greek yogurt, cottage cheese, and protein shakes to fill gaps. You don't need a complicated meal plan — just hit your protein number with whatever combination works for your life.",
         ],
         quotes: [
           {
@@ -186,14 +167,19 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
             attribution: "Tri",
           },
         ],
+        videos: [
+          {
+            youtubeId: "noN9NZ4b2oA",
+            title: "The ULTIMATE Guide to Getting Shredded by Summer 2025",
+            caption: "Tri's complete shredded-by-summer blueprint — bulk, cut, and everything in between.",
+          },
+        ],
       },
       {
         heading: "How Long to Bulk vs. Cut",
         paragraphs: [
-          "Bulk phases: typically 4-6 months. You're trying to build muscle, which is a slow process. Don't cut at the first sign of softness — you'll never actually build anything if you cut every time you gain a little fat. Muscle takes months to accumulate. Fat takes weeks to lose.",
-          "Cut phases: typically 8-16 weeks. Enough time to drop meaningful fat without sacrificing significant muscle. If you're cutting for more than 4 months, you either started at too high a body fat, or your deficit is too aggressive and you're stalling.",
-          "Where to start body fat for bulking: if you're above 18-20% body fat, cut first. Building more muscle on top of excess fat just buries the physique deeper. Get lean first, then build.",
-          "Where to stop a cut: most guys target 10-12% body fat for a good look. Visible abs, defined arms, V-taper apparent. Below 10% is a contest-prep territory that requires extreme discipline and isn't sustainable long-term for most people.",
+          "Bulk phases: 4-6 months. Muscle is slow to build — don't cut at the first sign of softness or you'll never accumulate anything. If you're above 18-20% body fat, cut first. Building on top of excess fat just buries the physique deeper.",
+          "Cut phases: 8-16 weeks. Target 10-12% body fat — visible abs, defined arms, V-taper. Below 10% is contest-prep territory that isn't sustainable for most people long-term.",
         ],
         quotes: [
           {
@@ -246,8 +232,6 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         heading: "Squat",
         paragraphs: [
           "Bar on mid-traps, not the neck. Big breath, brace your core hard. Sit back and down — not just down. Drive your knees out over your toes as you descend. Hit parallel or below. Drive through your heels on the way up.",
-          "Common mistakes: squatting with a forward lean because of tight hip flexors or ankles. Fix: stretch hip flexors daily, elevate heels slightly with plates if ankles are the issue while you work on mobility. Another common mistake: letting the knees cave inward at the bottom. Fix: focus on pushing knees out and practice with a resistance band above the knees to retrain the pattern.",
-          "Depth matters. Squatting to parallel or below targets the glutes and hamstrings properly. Quarter squats load the quads and stress the knees without the full benefit. Go down.",
         ],
         quotes: [
           {
@@ -259,9 +243,7 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
       {
         heading: "Bench Press",
         paragraphs: [
-          "Arch your back, retract and depress your scapulae before you unrack. Grip outside shoulder-width. Touch the bar to your lower chest, not your clavicle. Drive the bar up and slightly back toward your face at lockout.",
-          "The shoulder death trap: bench pressing with your elbows flared 90 degrees out from your torso. This puts enormous stress on the shoulder joint. Keep your elbows at 45-75 degrees from your torso. Your shoulder will thank you.",
-          "Feet on the floor, leg drive into the floor helps stabilize the press. Don't bench with your feet in the air unless you've been coached to do it for a specific reason.",
+          "Retract and depress your scapulae before you unrack. Grip outside shoulder-width. Touch the bar to your lower chest. Elbows at 45-75 degrees — not flared out, that's how shoulders die. Feet on the floor, drive through them.",
         ],
         quotes: [
           {
@@ -273,9 +255,7 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
       {
         heading: "Deadlift",
         paragraphs: [
-          "Bar over mid-foot (about 1 inch from shins). Hip hinge — push your hips back, not down. Grip the bar, take the slack out. Big breath, brace, then drive the floor away from you. Lock out hips and knees at the same time.",
-          "The number one deadlift cue that fixes most problems: \"push the floor away\" instead of \"pull the bar up.\" You're not rowing a barbell — you're doing a leg press with a barbell in your hands. This shifts activation to the legs and keeps the bar close to the body.",
-          "Mixed grip vs. double overhand vs. straps: start with double overhand to build grip strength. When the weight gets heavy (usually around 2x bodyweight), add straps or switch to mixed grip for working sets. Grip should not be your limiting factor once you're past the beginner stage.",
+          "Bar over mid-foot. Hip hinge — push your hips back, not down. Grip the bar, take the slack out. Big breath, brace, then drive the floor away from you. Think \"leg press with a barbell in your hands,\" not \"pulling the bar up.\" Lock out hips and knees together.",
         ],
         quotes: [
           {
@@ -287,9 +267,7 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
       {
         heading: "Overhead Press (OHP)",
         paragraphs: [
-          "Bar in the heel of your hands (not palm), grip just outside shoulder-width. Press straight up — not forward. Head through at the top. Lock out overhead with biceps by your ears. Re-rack your chin as the bar passes.",
-          "The OHP is the most technical of the big lifts and the most neglected. Guys skip it because it's hard and the weights are humbling. Don't skip it. Strong OHP = broad, capped shoulders. Nothing builds the deltoids like heavy pressing overhead.",
-          "Common problem: pressing the bar forward instead of straight up. This happens when your core isn't braced properly. Squeeze your glutes, brace your abs, keep your ribs down, and press straight up.",
+          "Bar in the heel of your hands, grip just outside shoulder-width. Press straight up — not forward. Head through at the top. Lock out with biceps by your ears. Guys skip this lift because the weight is humbling. Don't. Nothing builds shoulders like heavy overhead pressing.",
         ],
         quotes: [
           {
@@ -301,9 +279,7 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
       {
         heading: "Pull-ups",
         paragraphs: [
-          "Dead hang start — full arm extension. Retract your scapulae first before you pull. Then pull your elbows down toward your hips. Chin over bar. Control the descent. These are not kipping pull-ups.",
-          "If you can't do a pull-up yet: use an assisted pull-up machine or resistance bands for assistance. Build to bodyweight pull-ups before adding weight. Aim for 3 sets of 10 bodyweight pull-ups before you start loading.",
-          "Once you can do 10 clean pull-ups, start adding weight with a belt. Weighted pull-ups are one of the most effective lat and upper-back builders in existence. Many strong guys with great backs will tell you their program is basically heavy compound lifts plus weighted pull-ups.",
+          "Dead hang start — full arm extension. Retract your scapulae first, then pull your elbows down toward your hips. Chin over bar. Control the descent. Once you can do 10 clean reps, start adding weight — weighted pull-ups are one of the most effective back builders in existence.",
         ],
         quotes: [
           {
@@ -343,10 +319,7 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
       {
         heading: "Sleep Optimization for Lifters",
         paragraphs: [
-          "Consistent sleep and wake times matter as much as duration. Your body's hormonal rhythms are tied to your circadian clock. Sleeping 8 hours at random times is not as effective as sleeping 8 hours at the same time every night.",
-          "Temperature: your body needs to drop in temperature to initiate deep sleep. Keep your room cold — 65-68°F (18-20°C) is optimal. If you can't control the temperature, a fan helps.",
-          "Light: blackout curtains or a sleep mask. Light — even dim light — suppresses melatonin production and disrupts sleep quality. Your phone counts. Stop using it an hour before bed, or at minimum turn on night mode.",
-          "Practical optimization: same bedtime every night, cold room, dark room, no phone the last hour. This is not complex. Most guys don't do it.",
+          "Same bedtime every night. Cold room. Dark room. No phone the last hour. That's the entire protocol. Most guys already know this — they just don't do it.",
         ],
         quotes: [
           {
@@ -374,11 +347,11 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
   {
     id: "common-mistakes",
     number: "VII",
-    title: "Common Mistakes — The 6 Errors & How to Fix Them",
+    title: "Common Mistakes & How to Fix Them",
     sections: [
       {
         paragraphs: [
-          "These are the six mistakes I see most often across the hundreds of guys I've coached. All of them are fixable in a week once you know what to look for.",
+          "These are the mistakes that derail more guys than anything else. Both fixable in a week once you see them.",
         ],
         quotes: [],
       },
@@ -396,33 +369,7 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         ],
       },
       {
-        heading: "Mistake 2: Program Hopping",
-        paragraphs: [
-          "Switching routines every few weeks before anything adapts. Fitness YouTube is a trap — there is always a newer, cooler-looking program out. Your gains require time. Adaptation happens over months, not weeks.",
-          "Fix: pick a program, commit to it for 12 weeks, track your numbers, assess at week 12. If you're not progressing, then troubleshoot. If you are progressing, keep going.",
-        ],
-        quotes: [
-          {
-            text: "program hopping is the biggest killer of progress. you run something for 4 weeks, don't see the results you wanted, find something else online, start over. you never get far enough into any program to actually adapt and grow. pick something and commit.",
-            attribution: "Tri",
-          },
-        ],
-      },
-      {
-        heading: "Mistake 3: Undereating Protein",
-        paragraphs: [
-          "You cannot out-train a protein deficit. When you're in a calorie deficit and training hard, your body looks for energy anywhere it can find it — including muscle tissue. Adequate protein is the primary defense against this. 1g per lb of bodyweight, every day, no exceptions.",
-          "Fix: track your protein for two weeks. Most guys discover they're hitting 60-70g on a good day when they need 150-200g. Start with protein shakes to bridge the gap while you figure out your food sources.",
-        ],
-        quotes: [
-          {
-            text: "the number one reason people don't build muscle is they're not eating enough. full stop. they train hard, recover, do everything right, but they're eating at maintenance or in a slight deficit and wondering why they look the same after 6 months.",
-            attribution: "Tri",
-          },
-        ],
-      },
-      {
-        heading: "Mistake 4: Skipping Legs",
+        heading: "Mistake 2: Skipping Legs",
         paragraphs: [
           "You get half a physique. Squats and deadlifts aren't optional. Quads, hamstrings, and glutes are the largest muscle groups in the body — training them releases the most growth hormone and testosterone of any movements. Skipping legs also creates obvious visual imbalance.",
           "Fix: put squats and deadlifts on Day 1 of your program — not Day 3. When you're fresh, you push harder. When you're tired, you skip the hard stuff.",
@@ -430,32 +377,6 @@ export const FITNESS_CHAPTERS: PlaybookChapter[] = [
         quotes: [
           {
             text: "guys who do 4 exercises of bicep curls and skip squats will never look how they want. the big compound movements are how you build the foundation. curls, flyes, lateral raises -- these are finishers, not the main event.",
-            attribution: "Tri",
-          },
-        ],
-      },
-      {
-        heading: "Mistake 5: Neglecting Sleep",
-        paragraphs: [
-          "Sleep kills recovery, tanks testosterone, and destroys progress. Studies consistently show that sleep deprivation reduces muscle protein synthesis by 18% and drops testosterone levels measurably. You can't supplement your way around bad sleep.",
-          "Fix: treat sleep with the same seriousness you treat your training. Schedule it. Protect it. 7-9 hours.",
-        ],
-        quotes: [
-          {
-            text: "you don't grow in the gym. you break down in the gym and grow when you recover. if you're not recovering -- sleeping well, eating enough, managing stress -- the training isn't for you, it's working against you.",
-            attribution: "Tri",
-          },
-        ],
-      },
-      {
-        heading: "Mistake 6: No Progressive Overload",
-        paragraphs: [
-          "Just showing up and going through the motions. Every session needs a goal: more weight, more reps, or better form on the same weight. If nothing is changing in your training, nothing will change in your body.",
-          "Fix: track every session. Before you walk into the gym, know what you did last week and what you're aiming to beat. Minimum viable: one lift per session needs to improve.",
-        ],
-        quotes: [
-          {
-            text: "The 6 mistakes I see most are all fixable in a week. The problem is most guys don't know they're making them.",
             attribution: "Tri",
           },
         ],

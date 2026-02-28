@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { FITNESS_CHAPTERS } from "@/data/fitness-content";
 import FitnessHero from "@/components/fitness/FitnessHero";
+import FitnessTransformation from "@/components/fitness/FitnessTransformation";
 import FitnessTableOfContents from "@/components/fitness/FitnessTableOfContents";
 import FitnessPrinciples from "@/components/fitness/FitnessPrinciples";
 import FitnessFinalCTA from "@/components/fitness/FitnessFinalCTA";
@@ -79,6 +80,7 @@ export default function FitnessPage() {
 
       <main id="main-content">
         <FitnessHero />
+        <FitnessTransformation />
         <FitnessTableOfContents />
 
         {firstGroup.map((chapter, i) => (

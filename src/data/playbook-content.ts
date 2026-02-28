@@ -9,11 +9,18 @@ export interface PlaybookImage {
   caption?: string;
 }
 
+export interface PlaybookVideo {
+  youtubeId: string;
+  title: string;
+  caption?: string;
+}
+
 export interface ChapterSection {
   heading?: string;
   paragraphs: string[];
   quotes: PlaybookQuote[];
   images?: PlaybookImage[];
+  videos?: PlaybookVideo[];
 }
 
 export interface PlaybookChapter {

@@ -1,6 +1,7 @@
 import type { PlaybookChapter as ChapterData } from "@/data/playbook-content";
 import PlaybookBlockquote from "./PlaybookBlockquote";
 import PlaybookImageGrid from "./PlaybookImageGrid";
+import PlaybookVideoEmbed from "./PlaybookVideoEmbed";
 
 interface Props {
   chapter: ChapterData;
@@ -41,6 +42,9 @@ export default function PlaybookChapter({ chapter, variant = "dark-900" }: Props
             ))}
             {section.images && section.images.length > 0 && (
               <PlaybookImageGrid images={section.images} />
+            )}
+            {section.videos && section.videos.length > 0 && (
+              <PlaybookVideoEmbed videos={section.videos} />
             )}
           </div>
         ))}
