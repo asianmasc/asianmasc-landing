@@ -644,4 +644,9 @@ export const FITNESS_PRINCIPLES: FitnessPrinciple[] = [
     description:
       "Progress is not linear. Three steps forward, six steps back, two more forward. Don't quit. It all adds up.",
   },
+  {
+    title: "Be present. Keep your word.",
+    description:
+      "Show up. Respond. Do what you said you'd do. In the gym and everywhere else. That's the whole game.",
+  },
 ];

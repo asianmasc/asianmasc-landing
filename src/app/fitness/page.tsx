@@ -65,7 +65,7 @@ export default function FitnessPage() {
         ))}
 
         <ScrollFadeIn>
-          <SoftCTA />
+          <SoftCTA coachName="Tri" />
         </ScrollFadeIn>
 
         {secondGroup.map((chapter, i) => (

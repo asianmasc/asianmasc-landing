@@ -12,7 +12,7 @@ export default function FitnessPrinciples() {
             id="fitness-principles-heading"
             className="text-2xl md:text-3xl font-bold text-center mb-10"
           >
-            <span className="text-white">12 Rules</span>
+            <span className="text-white">13 Rules</span>
             <span style={{ color: "#ff6b35" }}> (Summarized)</span>
           </h2>
 

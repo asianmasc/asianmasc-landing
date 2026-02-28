@@ -12,7 +12,7 @@ function trackCTA(variant: string) {
   window.plausible?.("Playbook CTA Click", { props: { variant } });
 }
 
-export function SoftCTA() {
+export function SoftCTA({ coachName = "Benjamin" }: { coachName?: string }) {
   return (
     <section className="bg-dark-800 py-12" aria-label="Community invitation">
       <div className="max-w-3xl mx-auto px-6">
@@ -26,7 +26,7 @@ export function SoftCTA() {
               onClick={() => trackCTA("soft")}
               className="text-accent-gold hover:text-accent-gold-light font-medium underline underline-offset-4 transition-colors"
             >
-              Benjamin drops insights like these every week in the Discord
+              {coachName} drops insights like these every week in the Discord
             </a>
             .
           </p>
