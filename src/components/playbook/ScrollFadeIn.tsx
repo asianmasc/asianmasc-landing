@@ -31,6 +31,13 @@ export default function ScrollFadeIn({ children, className = "" }: Props) {
       { threshold: 0.1, rootMargin: "0px 0px -40px 0px" }
     );
 
+    // If already in viewport on mount (e.g. mobile scroll restore), show immediately
+    const rect = el.getBoundingClientRect();
+    if (rect.top < window.innerHeight && rect.bottom > 0) {
+      setIsVisible(true);
+      return;
+    }
+
     observer.observe(el);
     return () => observer.disconnect();
   }, []);
