@@ -2,6 +2,7 @@ import Hero from "@/components/Hero";
 import Problem from "@/components/Problem";
 import Pillars from "@/components/Pillars";
 import FitnessFeature from "@/components/FitnessFeature";
+import HaircutFeature from "@/components/HaircutFeature";
 import Testimonials from "@/components/Testimonials";
 import Stats from "@/components/Stats";
 import FinalCTA from "@/components/FinalCTA";
@@ -14,6 +15,7 @@ export default function Home() {
       <Problem />
       <Pillars />
       <FitnessFeature />
+      <HaircutFeature />
       <Stats />
       <Testimonials />
       <FinalCTA />
