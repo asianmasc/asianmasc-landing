@@ -14,9 +14,9 @@ export default function Home() {
       <Hero />
       <Problem />
       <Pillars />
+      <Stats />
       <FitnessFeature />
       <HaircutFeature />
-      <Stats />
       <Testimonials />
       <FinalCTA />
       <Footer />
