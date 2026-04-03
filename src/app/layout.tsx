@@ -57,7 +57,7 @@ const jsonLd = {
   logo: "https://asianmasc.com/favicon.ico",
   description: "The largest online community for Asian men focused on self-improvement, fitness, dating, career, and cultural identity.",
   sameAs: [
-    "https://discord.gg/asianmasc",
+    "https://discord.gg/eYeFxEhSqE",
     "https://reddit.com/r/asianmasculinity",
   ],
 };

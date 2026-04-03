@@ -15,7 +15,7 @@ export default function Footer() {
             <ul className="flex flex-wrap justify-center gap-6 text-gray-400 text-sm list-none">
               <li>
                 <a
-                  href="https://discord.gg/asianmasc"
+                  href="https://discord.gg/eYeFxEhSqE"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors"

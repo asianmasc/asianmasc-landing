@@ -1,6 +1,6 @@
 "use client";
 
-const DISCORD_LINK = "https://discord.gg/asianmasc";
+const DISCORD_LINK = "https://discord.gg/eYeFxEhSqE";
 
 export default function FinalCTA() {
   return (

@@ -3,7 +3,7 @@
 import Image from "next/image";
 import SubredditStats from "./SubredditStats";
 
-const DISCORD_LINK = "https://discord.gg/asianmasc";
+const DISCORD_LINK = "https://discord.gg/eYeFxEhSqE";
 
 const heroPhotos = [
   { src: "/community-1.webp", alt: "Community member — clean style" },
